@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="841.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-9.0" prefHeight="496.0" prefWidth="191.0" style="-fx-background-color: #D40018;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-9.0">
+         <children>
+            <VBox layoutY="149.0" prefHeight="347.0" prefWidth="191.0">
+               <children>
+                  <Button id="btnCadastroAluno" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018; -fx-background-radius: 30 30 0 0;" text="Cadastro de Aluno" textFill="WHITE" />
+                  <Button id="btnAnamnese" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Anamnese" textFill="WHITE" />
+                  <Button id="btnAvaliacao" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Reavaliação" textFill="WHITE" />
+                  <Button id="btnAnaPost" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Analise Postural" textFill="WHITE" />
+                  <Button id="btnPerCirc" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Perímetro e Circunferência" textFill="WHITE" />
+                  <Button id="btnFlexibilidade" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Flexibilidade" textFill="WHITE" />
+                  <Button id="btnHemo" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Variaveis Hemodinâmica" textFill="WHITE" />
+                  <Button id="btnIbdm" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="IBDM" textFill="WHITE" />
+                  <Button id="btnLaudos" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Laudos" textFill="WHITE" />
+                  <Button id="btnRelacoes" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Relaçoes" textFill="WHITE" />
+                  <Button id="btnSobre" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Sobre" textFill="WHITE" />
+                  <Button id="btnSair" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018; -fx-background-radius: 0 0 30 30;" text="Sair" textFill="WHITE" />
+               </children>
+            </VBox>
+            <Pane layoutX="-4.0" layoutY="90.0" prefHeight="59.0" prefWidth="200.0" style="-fx-background-color: #F5001C;">
+               <children>
+                  <Label layoutX="63.0" layoutY="13.0" text="Menu" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ImageView fitHeight="76.0" fitWidth="190.0" layoutX="3.0" layoutY="12.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../images/Bradhon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>
-
