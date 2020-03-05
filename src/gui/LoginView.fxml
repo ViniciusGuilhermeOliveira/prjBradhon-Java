@@ -6,20 +6,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="221.0" prefWidth="394.0" stylesheets="@../css/gradialStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="221.0" prefWidth="394.0" stylesheets="@../css/gradialStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginController">
    <children>
-      <TextField id="txtLogin" fx:id="txtLogin" alignment="CENTER" layoutX="89.0" layoutY="58.0" prefHeight="26.0" prefWidth="217.0" promptText="Login" />
-      <Button id="btnEntrar" fx:id="btnEntrar" layoutX="89.0" layoutY="139.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="217.0" style="-fx-background-radius: 30 30 30 30;" text="Entrar" textFill="WHITE">
+      <TextField id="txtLogin" fx:id="txtLogin" alignment="CENTER" layoutX="89.0" layoutY="58.0" prefHeight="26.0" prefWidth="217.0" promptText="Login" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="88.0" />
+      <Button id="btnEntrar" fx:id="btnEntrar" layoutX="89.0" layoutY="139.0" mnemonicParsing="false" onAction="#logarSistema" prefHeight="26.0" prefWidth="217.0" style="-fx-background-radius: 30 30 30 30;" text="Entrar" textFill="WHITE" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="88.0">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Button>
-      <Button id="btnCancelar" fx:id="btnCancelar" layoutX="88.0" layoutY="171.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="217.0" style="-fx-background-radius: 30 30 30 30;" text="Cancelar" textFill="WHITE">
+      <Button id="btnCancelar" fx:id="btnCancelar" layoutX="88.0" layoutY="171.0" mnemonicParsing="false" onAction="#fecharTelaAction" prefHeight="26.0" prefWidth="217.0" style="-fx-background-radius: 30 30 30 30;" text="Cancelar" textFill="WHITE" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="88.0">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Button>
-      <PasswordField fx:id="txtSenha" alignment="CENTER" layoutX="89.0" layoutY="98.0" prefHeight="26.0" prefWidth="217.0" promptText="Senha" />
+      <PasswordField fx:id="txtSenha" alignment="CENTER" layoutX="89.0" layoutY="98.0" prefHeight="26.0" prefWidth="217.0" promptText="Senha" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="88.0" />
    </children>
 </AnchorPane>

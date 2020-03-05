@@ -9,30 +9,30 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="841.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="841.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainController">
    <children>
       <AnchorPane layoutY="-9.0" prefHeight="496.0" prefWidth="191.0" style="-fx-background-color: #D40018;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-9.0">
          <children>
             <VBox layoutY="149.0" prefHeight="347.0" prefWidth="191.0">
                <children>
-                  <Button id="btnCadastroAluno" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018; -fx-background-radius: 30 30 0 0;" text="Cadastro de Aluno" textFill="WHITE" />
-                  <Button id="btnAnamnese" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Anamnese" textFill="WHITE" />
-                  <Button id="btnAvaliacao" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Reavaliação" textFill="WHITE" />
-                  <Button id="btnAnaPost" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Analise Postural" textFill="WHITE" />
-                  <Button id="btnPerCirc" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Perímetro e Circunferência" textFill="WHITE" />
-                  <Button id="btnFlexibilidade" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Flexibilidade" textFill="WHITE" />
-                  <Button id="btnHemo" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Variaveis Hemodinâmica" textFill="WHITE" />
-                  <Button id="btnIbdm" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="IBDM" textFill="WHITE" />
-                  <Button id="btnLaudos" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Laudos" textFill="WHITE" />
-                  <Button id="btnRelacoes" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Relaçoes" textFill="WHITE" />
-                  <Button id="btnSobre" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018;" text="Sobre" textFill="WHITE" />
-                  <Button id="btnSair" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-color: #D40018; -fx-background-radius: 0 0 30 30;" text="Sair" textFill="WHITE" />
+                  <Button fx:id="btnCadAluno" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" style="-fx-background-radius: 30 30 0 0;" stylesheets="@../css/MainView.css" text="Cadastro de Aluno" textFill="WHITE" />
+                  <Button fx:id="btnAnamnese" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Anamnese" textFill="WHITE" />
+                  <Button fx:id="btnAvaliacao" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Reavaliação" textFill="WHITE" />
+	              <Button fx:id="btnAnaPost" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Analise Postural" textFill="WHITE" />
+		          <Button fx:id="btnPerCirc" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Perímetro e Circunferência" textFill="WHITE" />
+				  <Button fx:id="btnFlexibilidade" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Flexibilidade" textFill="WHITE" />
+				  <Button fx:id="btnHemo" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Variaveis Hemodinâmica" textFill="WHITE" />
+				  <Button fx:id="btnIbdm" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="IBDM" textFill="WHITE" />
+				  <Button fx:id="btnLaudos" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Laudos" textFill="WHITE" />
+				  <Button fx:id="btnRelacoes" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Relações" textFill="WHITE" />
+				  <Button fx:id="btnSobre" mnemonicParsing="false" prefHeight="27.0" prefWidth="190.0" stylesheets="@../css/MainView.css" text="Sobre" textFill="WHITE" />
+				  <Button fx:id="btnSair" mnemonicParsing="false" onAction="#fecharTelaAction" prefHeight="27.0" prefWidth="190.0" style="-fx-background-radius: 0 0 30 30;" stylesheets="@../css/MainView.css" text="Sair" textFill="WHITE" />
+
                </children>
             </VBox>
             <Pane layoutX="-4.0" layoutY="90.0" prefHeight="59.0" prefWidth="200.0" style="-fx-background-color: #F5001C;">
                <children>
-                  <Label layoutX="63.0" layoutY="13.0" text="Menu" textFill="WHITE" textOverrun="CLIP">
+                  <Label layoutX="58.0" layoutY="13.0" text="Menu" textFill="WHITE" textOverrun="CLIP">
                      <font>
                         <Font name="System Bold" size="27.0" />
                      </font>
@@ -46,5 +46,6 @@
             </ImageView>
          </children>
       </AnchorPane>
+      <AnchorPane layoutX="196.0" layoutY="-4.0" prefHeight="496.0" prefWidth="647.0" stylesheets="@../css/MainView.css" />
    </children>
 </AnchorPane>
