@@ -41,7 +41,7 @@
             </Pane>
             <ImageView fitHeight="76.0" fitWidth="190.0" layoutX="3.0" layoutY="12.0" pickOnBounds="true" smooth="false">
                <image>
-                  <Image url="@../images/Bradhon.png" />
+                  <Image url="@../images/BradhonLogo.png" />
                </image>
             </ImageView>
          </children>
