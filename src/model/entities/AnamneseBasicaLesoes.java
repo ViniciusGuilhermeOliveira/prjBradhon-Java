@@ -1,0 +1,42 @@
+package model.entities;
+public class AnamneseBasicaLesoes
+{
+	public int idLesoes;
+	public boolean Outras;
+	public String DescOutras;
+	public String QuandoOutras;
+	public String SequelaOutras;
+	public boolean Artrose;
+	public String LocalGrauArtorse;
+	public String QuandoArtrose;
+	public String SequelaArtrose;
+	public boolean Tendinite;
+	public String LocalTendinite;
+	public String QuandoTendinite;
+	public String SequelaTendinite;
+	public boolean Fascite_Plantar;
+	public String LocalFascite;
+	public String QuandoFascite;
+	public String SequelaFacite;
+	public boolean Lesao_Meniscomenisco;
+	public String Tipo_Lesao;
+	public String QuandoLesao;
+	public String SequelaLesao;
+	public boolean Ligamentos_Joelho;
+	public String TipoLigamento;
+	public String QuandoLigamento;
+	public String SequelaLigamento;
+	public boolean Condromalacia;
+	public String GrauCondromalacia;
+	public String QuandoCondromalacia;
+	public String SequelaCondromalacia;
+	public boolean Entorse;
+	public String LocalEntorse;
+	public String QuandoEntorse;
+	public String SequelaEntorse;
+	public boolean Osteopenia_Osteoporose;
+	public String LocalOsteopenia_Osteoporose;
+	public String QuandoOsteopenia_Osteoporose;
+	public String SequelaOsteopenia_Osteoporose;
+	public String ObsDoencasLesoes;
+}

@@ -24,9 +24,10 @@
 						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="392.0" prefWidth="720.0">
 							<children>
 								<Label layoutX="14.0" layoutY="6.0" text="Atualmente, o que faz de exercício físico?">
-                           <padding>
-                              <Insets left="5.0" />
-                           </padding></Label>
+									<padding>
+										<Insets left="5.0" />
+									</padding>
+								</Label>
 								<Label layoutX="15.0" layoutY="40.0" text="Pratica:" />
 								<Label layoutX="277.0" layoutY="40.0" text="Há quanto tempo?" />
 								<Label layoutX="360.0" layoutY="79.0" text="Carga de treino:" />
@@ -43,37 +44,37 @@
 								<Label layoutX="15.0" layoutY="349.0" text="Obs" />
 								<Label layoutX="15.0" layoutY="317.0" text="Há quanto tempo parou?" />
 								<Label layoutX="392.0" layoutY="317.0" text="Por que parou?" />
-                        <Button layoutX="295.0" layoutY="1.0" mnemonicParsing="false" text="+" />
-                        <TextField layoutX="71.0" layoutY="35.0" prefHeight="26.0" prefWidth="191.0" />
-                        <TextField layoutX="411.0" layoutY="35.0" prefHeight="26.0" prefWidth="292.0" />
-                        <TextField layoutX="134.0" layoutY="74.0" prefHeight="26.0" prefWidth="211.0" />
-                        <TextField layoutX="472.0" layoutY="74.0" prefHeight="26.0" prefWidth="234.0" />
-                        <ComboBox layoutX="202.0" layoutY="108.0" prefHeight="26.0" prefWidth="179.0" />
-                        <TextField layoutX="429.0" layoutY="108.0" prefHeight="26.0" prefWidth="281.0" />
-                        <Button layoutX="447.0" layoutY="140.0" mnemonicParsing="false" text="+" />
-                        <TextField layoutX="81.0" layoutY="171.0" prefHeight="26.0" prefWidth="187.0" />
-                        <TextField layoutX="397.0" layoutY="171.0" prefHeight="26.0" prefWidth="311.0" />
-                        <TextField layoutX="65.0" layoutY="211.0" prefHeight="26.0" prefWidth="644.0" />
-                        <Button layoutX="415.0" layoutY="240.0" mnemonicParsing="false" text="+" />
-                        <TextField layoutX="81.0" layoutY="275.0" prefHeight="26.0" prefWidth="194.0" />
-                        <TextField layoutX="429.0" layoutY="275.0" prefHeight="26.0" prefWidth="278.0" />
-                        <TextField layoutX="201.0" layoutY="312.0" prefHeight="26.0" prefWidth="187.0" />
-                        <TextField layoutX="504.0" layoutY="312.0" prefHeight="26.0" prefWidth="205.0" />
-                        <TextField layoutX="54.0" layoutY="344.0" prefHeight="26.0" prefWidth="653.0" />
-                        <Label layoutX="15.0" layoutY="385.0" text="Tem algum exercício ou esporte que voce não gosta?" />
-                        <Button layoutX="373.0" layoutY="380.0" mnemonicParsing="false" text="+" />
-                        <Label layoutX="15.0" layoutY="413.0" text="Qual ?" />
-                        <Label layoutX="244.0" layoutY="413.0" text="Por que?" />
-                        <TextField layoutX="67.0" layoutY="408.0" />
-                        <TextField layoutX="318.0" layoutY="408.0" prefHeight="26.0" prefWidth="389.0" />
-                        <Label layoutX="15.0" layoutY="446.0" text=" Durante o exercício físico, sente algum dos seguintes desconfortos?" />
-                        <CheckBox layoutX="21.0" layoutY="470.0" mnemonicParsing="false" text="Náuseas?" />
-                        <CheckBox layoutX="111.0" layoutY="470.0" mnemonicParsing="false" text="Ansia de vômito?" />
-                        <CheckBox layoutX="257.0" layoutY="470.0" mnemonicParsing="false" text="Vista turva?" />
-                        <CheckBox layoutX="492.0" layoutY="470.0" mnemonicParsing="false" text="Fomigamento?" />
-                        <CheckBox layoutX="625.0" layoutY="470.0" mnemonicParsing="false" text="Tontura?" />
-                        <CheckBox layoutX="370.0" layoutY="470.0" mnemonicParsing="false" text="Dor no peito?" />
-                        <Button layoutX="23.0" layoutY="506.0" mnemonicParsing="false" text="CÁLCULO PARA VELOCIDADE MÉDIA DE CORRIDA (ESTIMAR O VO2MÁXIMO)" />
+								<Button layoutX="295.0" layoutY="1.0" mnemonicParsing="false" text="+" />
+								<TextField fx:id="txtAtividadePratica" layoutX="71.0" layoutY="35.0" prefHeight="26.0" prefWidth="191.0" />
+								<TextField fx:id="txtTempoPratica" layoutX="411.0" layoutY="35.0" prefHeight="26.0" prefWidth="292.0" />
+								<TextField fx:id="txtDiasSemanaPratica" layoutX="134.0" layoutY="74.0" prefHeight="26.0" prefWidth="211.0" />
+								<TextField fx:id="txtCargaTreinoPratica" layoutX="472.0" layoutY="74.0" prefHeight="26.0" prefWidth="234.0" />
+								<ComboBox fx:id="cboTerminoPratica" layoutX="202.0" layoutY="108.0" prefHeight="26.0" prefWidth="179.0" promptText="SELECIONE" />
+								<TextField fx:id="txtObsPratica" layoutX="429.0" layoutY="108.0" prefHeight="26.0" prefWidth="281.0" />
+								<Button layoutX="447.0" layoutY="140.0" mnemonicParsing="false" text="+" />
+								<TextField fx:id="txtAtividadePraticaVaga" layoutX="81.0" layoutY="171.0" prefHeight="26.0" prefWidth="187.0" />
+								<TextField fx:id="txtDiasSemanaPraticaVaga" layoutX="397.0" layoutY="171.0" prefHeight="26.0" prefWidth="311.0" />
+								<TextField fx:id="txtObsPraticaVaga" layoutX="65.0" layoutY="211.0" prefHeight="26.0" prefWidth="644.0" />
+								<Button layoutX="415.0" layoutY="240.0" mnemonicParsing="false" text="+" />
+								<TextField fx:id="txtAtividadePraticaAdolecen" layoutX="81.0" layoutY="275.0" prefHeight="26.0" prefWidth="194.0" />
+								<TextField fx:id="txtTempoPraticaAdolecen" layoutX="429.0" layoutY="275.0" prefHeight="26.0" prefWidth="278.0" />
+								<TextField fx:id="txtTempoParouAdolecen" layoutX="201.0" layoutY="312.0" prefHeight="26.0" prefWidth="187.0" />
+								<TextField fx:id="txtMotivoParouAdolecen" layoutX="504.0" layoutY="312.0" prefHeight="26.0" prefWidth="205.0" />
+								<TextField layoutX="54.0" layoutY="344.0" prefHeight="26.0" prefWidth="653.0" />
+								<Label layoutX="15.0" layoutY="385.0" text="Tem algum exercício ou esporte que voce não gosta?" />
+								<Button layoutX="373.0" layoutY="380.0" mnemonicParsing="false" text="+" />
+								<Label layoutX="15.0" layoutY="413.0" text="Qual ?" />
+								<Label layoutX="244.0" layoutY="413.0" text="Por que?" />
+								<TextField fx:id="txtExercicioNGosta" layoutX="67.0" layoutY="408.0" />
+								<TextField fx:id="txtMotivoExercicioNGosta" layoutX="318.0" layoutY="408.0" prefHeight="26.0" prefWidth="389.0" />
+								<Label layoutX="15.0" layoutY="446.0" text=" Durante o exercício físico, sente algum dos seguintes desconfortos?" />
+								<CheckBox fx:id="chkNauseaDurante" layoutX="21.0" layoutY="470.0" mnemonicParsing="false" text="Náuseas?" />
+								<CheckBox fx:id="chkAnsiaDurante" layoutX="111.0" layoutY="470.0" mnemonicParsing="false" text="Ansia de vômito?" />
+								<CheckBox fx:id="chkVistaTurvaDurante" layoutX="257.0" layoutY="470.0" mnemonicParsing="false" text="Vista turva?" />
+								<CheckBox fx:id="chkFomigamentoDurante" layoutX="492.0" layoutY="470.0" mnemonicParsing="false" text="Fomigamento?" />
+								<CheckBox fx:id="chkTonturaDurante" layoutX="625.0" layoutY="470.0" mnemonicParsing="false" text="Tontura?" />
+								<CheckBox fx:id="chkDorPeitoDurante" layoutX="370.0" layoutY="470.0" mnemonicParsing="false" text="Dor no peito?" />
+								<Button layoutX="23.0" layoutY="506.0" mnemonicParsing="false" text="CÁLCULO PARA VELOCIDADE MÉDIA DE CORRIDA (ESTIMAR O VO2MÁXIMO)" />
 
 							</children>
 						</AnchorPane>
@@ -82,243 +83,1034 @@
 				<Tab text="DORES E LESÕES">
 					<content>
 						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <Label layoutX="15.0" layoutY="14.0" text="Atualmente, sente DORES regulares? Seja no serviço, fazendo exercício ou no cotidiano?" />
-                        <Label layoutX="15.0" layoutY="45.0" text="Local" />
-                        <Label layoutX="254.0" layoutY="45.0" text="Há quanto tempo?" />
-                        <Label layoutX="15.0" layoutY="82.0" text="Qual a intensidade de 0 a 10?" />
-                        <Label layoutX="15.0" layoutY="121.0" text="Associado a algum gesto? Observações." />
-                        <TextField layoutX="68.0" layoutY="40.0" />
-                        <TextField layoutX="389.0" layoutY="40.0" />
-                        <ComboBox layoutX="221.0" layoutY="77.0" prefWidth="150.0" />
-                        <TextField layoutX="290.0" layoutY="116.0" prefHeight="26.0" prefWidth="419.0" />
-                        <Button layoutX="610.0" layoutY="9.0" mnemonicParsing="false" text="+" />
-                        <CheckBox layoutX="15.0" layoutY="155.0" mnemonicParsing="false" text="Lesão de menisco" />
-                        <CheckBox layoutX="14.0" layoutY="275.0" mnemonicParsing="false" text="Artrose" />
-                        <CheckBox layoutX="15.0" layoutY="214.0" mnemonicParsing="false" text="Ligamentos do joelho" />
-                        <Label layoutX="203.0" layoutY="156.0" text="Qual e tipo" />
-                        <TextField layoutX="286.0" layoutY="151.0" prefHeight="26.0" prefWidth="226.0" />
-                        <TextField layoutX="595.0" layoutY="151.0" prefHeight="26.0" prefWidth="118.0" />
-                        <Label layoutX="535.0" layoutY="156.0" text="Quando" />
-                        <TextField layoutX="76.0" layoutY="181.0" prefHeight="26.0" prefWidth="637.0" />
-                        <Label layoutX="15.0" layoutY="186.0" text="Sequela" />
-                        <Label layoutX="203.0" layoutY="215.0" text="Qual e tipo" />
-                        <TextField layoutX="286.0" layoutY="210.0" prefHeight="26.0" prefWidth="226.0" />
-                        <TextField layoutX="595.0" layoutY="210.0" prefHeight="26.0" prefWidth="118.0" />
-                        <Label layoutX="535.0" layoutY="215.0" text="Quando" />
-                        <TextField layoutX="76.0" layoutY="240.0" prefHeight="26.0" prefWidth="637.0" />
-                        <Label layoutX="15.0" layoutY="245.0" text="Sequela" />
-                        <Label layoutX="97.0" layoutY="276.0" text="Local e Grau:" />
-                        <TextField layoutX="188.0" layoutY="271.0" prefHeight="26.0" prefWidth="226.0" />
-                        <TextField layoutX="489.0" layoutY="271.0" prefHeight="26.0" prefWidth="118.0" />
-                        <Label layoutX="429.0" layoutY="276.0" text="Quando" />
-                        <TextField layoutX="76.0" layoutY="304.0" prefHeight="26.0" prefWidth="637.0" />
-                        <Label layoutX="15.0" layoutY="309.0" text="Sequela" />
-                        <CheckBox layoutX="15.0" layoutY="340.0" mnemonicParsing="false" text="Condromalácia" />
-                        <Label layoutX="160.0" layoutY="341.0" text="Grau:" />
-                        <TextField layoutX="202.0" layoutY="336.0" prefHeight="26.0" prefWidth="226.0" />
-                        <TextField layoutX="506.0" layoutY="336.0" prefHeight="26.0" prefWidth="118.0" />
-                        <Label layoutX="446.0" layoutY="341.0" text="Quando" />
-                        <TextField layoutX="84.0" layoutY="369.0" prefHeight="26.0" prefWidth="637.0" />
-                        <Label layoutX="23.0" layoutY="374.0" text="Sequela" />
-                        <CheckBox layoutX="15.0" layoutY="409.0" mnemonicParsing="false" text=" Entorse (articular)" />
-                        <Label layoutX="190.0" layoutY="410.0" text="Local e tipo:" />
-                        <TextField layoutX="276.0" layoutY="405.0" prefHeight="26.0" prefWidth="226.0" />
-                        <TextField layoutX="580.0" layoutY="405.0" prefHeight="26.0" prefWidth="118.0" />
-                        <Label layoutX="520.0" layoutY="410.0" text="Quando" />
-                        <TextField layoutX="71.0" layoutY="438.0" prefHeight="26.0" prefWidth="637.0" />
-                        <Label layoutX="15.0" layoutY="443.0" text="Sequela" />
-                        <CheckBox layoutX="15.0" layoutY="468.0" mnemonicParsing="false" text="Osteopenia/Osteoporose " />
-                        <Label layoutX="215.0" layoutY="469.0" text="Local e Grau:" />
-                        <TextField layoutX="299.0" layoutY="464.0" prefHeight="26.0" prefWidth="226.0" />
-                        <TextField layoutX="591.0" layoutY="464.0" prefHeight="26.0" prefWidth="118.0" />
-                        <Label layoutX="531.0" layoutY="469.0" text="Quando" />
-                        <TextField layoutX="71.0" layoutY="497.0" prefHeight="26.0" prefWidth="637.0" />
-                        <Label layoutX="15.0" layoutY="502.0" text="Sequela" />
-                     </children></AnchorPane>
+							<children>
+								<Label layoutX="15.0" layoutY="14.0" text="Atualmente, sente DORES regulares? Seja no serviço, fazendo exercício ou no cotidiano?" />
+								<Label layoutX="15.0" layoutY="45.0" text="Local" />
+								<Label layoutX="254.0" layoutY="45.0" text="Há quanto tempo?" />
+								<Label layoutX="15.0" layoutY="82.0" text="Qual a intensidade de 0 a 10?" />
+								<Label layoutX="15.0" layoutY="121.0" text="Associado a algum gesto? Observações." />
+								<TextField fx:id="txtLocalRegular" layoutX="68.0" layoutY="40.0" />
+								<TextField fx:id="txtTempoRegular" layoutX="389.0" layoutY="40.0" />
+								<ComboBox fx:id="cboIntensidadeRegular" layoutX="221.0" layoutY="77.0" prefWidth="150.0" />
+								<TextField fx:id="txtObsRegular" layoutX="290.0" layoutY="116.0" prefHeight="26.0" prefWidth="419.0" />
+								<Button layoutX="610.0" layoutY="9.0" mnemonicParsing="false" text="+" />
+								<CheckBox fx:id="chkLesao_Meniscomenisco" layoutX="15.0" layoutY="155.0" mnemonicParsing="false" text="Lesão de menisco" />
+								<CheckBox fx:id="chkArtrose" layoutX="14.0" layoutY="275.0" mnemonicParsing="false" text="Artrose" />
+								<CheckBox fx:id="chkLigamentos_Joelho" layoutX="15.0" layoutY="214.0" mnemonicParsing="false" text="Ligamentos do joelho" />
+								<Label layoutX="203.0" layoutY="156.0" text="Qual e tipo" />
+								<TextField fx:id="txtTipo_Lesao" layoutX="286.0" layoutY="151.0" prefHeight="26.0" prefWidth="226.0" />
+								<TextField fx:id="txtQuandoLesao" layoutX="595.0" layoutY="151.0" prefHeight="26.0" prefWidth="118.0" />
+								<Label layoutX="535.0" layoutY="156.0" text="Quando" />
+								<TextField fx:id="txtSequelaLesao" layoutX="76.0" layoutY="181.0" prefHeight="26.0" prefWidth="637.0" />
+								<Label layoutX="15.0" layoutY="186.0" text="Sequela" />
+								<Label layoutX="203.0" layoutY="215.0" text="Qual e tipo" />
+								<TextField fx:id="txtTipoLigamento" layoutX="286.0" layoutY="210.0" prefHeight="26.0" prefWidth="226.0" />
+								<TextField fx:id="txtQuandoLigamento" layoutX="595.0" layoutY="210.0" prefHeight="26.0" prefWidth="118.0" />
+								<Label layoutX="535.0" layoutY="215.0" text="Quando" />
+								<TextField fx:id="txtSequelaLigamento" layoutX="76.0" layoutY="240.0" prefHeight="26.0" prefWidth="637.0" />
+								<Label layoutX="15.0" layoutY="245.0" text="Sequela" />
+								<Label layoutX="97.0" layoutY="276.0" text="Local e Grau:" />
+								<TextField fx:id="txtLocalGrauArtorse" layoutX="188.0" layoutY="271.0" prefHeight="26.0" prefWidth="226.0" />
+								<TextField fx:id="txtQuandoArtrose" layoutX="489.0" layoutY="271.0" prefHeight="26.0" prefWidth="118.0" />
+								<Label layoutX="429.0" layoutY="276.0" text="Quando" />
+								<TextField fx:id="txtSequelaArtrose" layoutX="76.0" layoutY="304.0" prefHeight="26.0" prefWidth="637.0" />
+								<Label layoutX="15.0" layoutY="309.0" text="Sequela" />
+								<CheckBox fx:id="chkCondromalacia" layoutX="15.0" layoutY="340.0" mnemonicParsing="false" text="Condromalácia" />
+								<Label layoutX="160.0" layoutY="341.0" text="Grau:" />
+								<TextField fx:id="txtGrauCondromalacia" layoutX="202.0" layoutY="336.0" prefHeight="26.0" prefWidth="226.0" />
+								<TextField fx:id="txtQuandoCondromalacia" layoutX="506.0" layoutY="336.0" prefHeight="26.0" prefWidth="118.0" />
+								<Label layoutX="446.0" layoutY="341.0" text="Quando" />
+								<TextField fx:id="txtSequelaCondromalacia" layoutX="84.0" layoutY="369.0" prefHeight="26.0" prefWidth="637.0" />
+								<Label layoutX="23.0" layoutY="374.0" text="Sequela" />
+								<CheckBox fx:id="chkEntorse" layoutX="15.0" layoutY="409.0" mnemonicParsing="false" text=" Entorse (articular)" />
+								<Label layoutX="190.0" layoutY="410.0" text="Local e tipo:" />
+								<TextField fx:id="txtLocalEntorse" layoutX="276.0" layoutY="405.0" prefHeight="26.0" prefWidth="226.0" />
+								<TextField fx:id="txtQuandoEntorse" layoutX="580.0" layoutY="405.0" prefHeight="26.0" prefWidth="118.0" />
+								<Label layoutX="520.0" layoutY="410.0" text="Quando" />
+								<TextField fx:id="txtSequelaEntorse" layoutX="71.0" layoutY="438.0" prefHeight="26.0" prefWidth="637.0" />
+								<Label layoutX="15.0" layoutY="443.0" text="Sequela" />
+								<CheckBox fx:id="chkOsteopenia_Osteoporose" layoutX="15.0" layoutY="476.0" mnemonicParsing="false" text="Osteopenia/Osteoporose " />
+								<Label layoutX="215.0" layoutY="477.0" text="Local e Grau:" />
+								<TextField fx:id="txtLocalOsteopenia_Osteoporose" layoutX="299.0" layoutY="472.0" prefHeight="26.0" prefWidth="226.0" />
+								<TextField fx:id="txtQuandoOsteopenia_Osteoporose" layoutX="591.0" layoutY="472.0" prefHeight="26.0" prefWidth="118.0" />
+								<Label layoutX="531.0" layoutY="477.0" text="Quando" />
+								<TextField fx:id="txtSequelaOsteopenia_Osteoporose" layoutX="71.0" layoutY="508.0" prefHeight="26.0" prefWidth="637.0" />
+								<Label layoutX="15.0" layoutY="513.0" text="Sequela" />
+							</children>
+						</AnchorPane>
 					</content>
 				</Tab>
-            <Tab text="DORES E LESÕES pt2">
+				<Tab text="DORES E LESÕES pt2">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<CheckBox fx:id="chkFascite_Plantar" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" text="Fascite plantar" />
+								<Label layoutX="158.0" layoutY="15.0" text="Local" />
+								<TextField fx:id="txtLocalFascite" layoutX="204.0" layoutY="10.0" />
+								<Label layoutX="408.0" layoutY="15.0" text="Quando" />
+								<TextField fx:id="txtQuandoFascite" layoutX="470.0" layoutY="10.0" prefHeight="26.0" prefWidth="224.0" />
+								<Label layoutX="15.0" layoutY="47.0" text="Sequela" />
+								<TextField fx:id="txtSequelaFacite" layoutX="72.0" layoutY="42.0" prefHeight="26.0" prefWidth="625.0" />
+								<CheckBox fx:id="chkTendinite" layoutX="14.0" layoutY="81.0" mnemonicParsing="false" text="Tendinite" />
+								<Label layoutX="157.0" layoutY="82.0" text="Local" />
+								<TextField fx:id="txtLocalTendinite" layoutX="203.0" layoutY="77.0" />
+								<Label layoutX="407.0" layoutY="82.0" text="Quando" />
+								<TextField fx:id="txtQuandoTendinite" layoutX="469.0" layoutY="77.0" prefHeight="26.0" prefWidth="224.0" />
+								<Label layoutX="14.0" layoutY="114.0" text="Sequela" />
+								<TextField fx:id="txtSequelaTendinite" layoutX="71.0" layoutY="109.0" prefHeight="26.0" prefWidth="625.0" />
+								<CheckBox fx:id="chkOutras" layoutX="14.0" layoutY="146.0" mnemonicParsing="false" text="Outras" />
+								<Label layoutX="157.0" layoutY="147.0" text="Local" />
+								<TextField fx:id="txtDescOutras" layoutX="203.0" layoutY="142.0" />
+								<Label layoutX="407.0" layoutY="147.0" text="Quando" />
+								<TextField fx:id="txtQuandoOutras" layoutX="469.0" layoutY="142.0" prefHeight="26.0" prefWidth="224.0" />
+								<Label layoutX="14.0" layoutY="179.0" text="Sequela" />
+								<TextField fx:id="txtSequelaOutras" layoutX="71.0" layoutY="174.0" prefHeight="26.0" prefWidth="625.0" />
+								<Label layoutX="24.0" layoutY="229.0" prefHeight="16.0" prefWidth="261.0" text="Já Fez Alguma Cirurgia?" />
+								<Label layoutX="15.0" layoutY="276.0" text="Local" />
+								<Label layoutX="375.0" layoutY="276.0" prefHeight="16.0" prefWidth="97.0" text="Qual cirurgia" />
+								<Label layoutX="16.0" layoutY="312.0" text="Quando" />
+								<Label layoutX="251.0" layoutY="312.0" text="Sequela" />
+								<TextField fx:id="txtLocalCirurgia" layoutX="69.0" layoutY="271.0" prefHeight="26.0" prefWidth="293.0" />
+								<TextField fx:id="txtQualCirurgia" layoutX="469.0" layoutY="271.0" prefHeight="26.0" prefWidth="223.0" />
+								<TextField fx:id="txtQuandoCirurgia" layoutX="73.0" layoutY="307.0" prefHeight="26.0" prefWidth="162.0" />
+								<TextField fx:id="txtSequelaCirurgia" layoutX="313.0" layoutY="307.0" prefHeight="26.0" prefWidth="378.0" />
+								<Button layoutX="348.0" layoutY="224.0" mnemonicParsing="false" text="+" />
+								<Label layoutX="16.0" layoutY="345.0" text="Observações" />
+								<TextField fx:id="txtObsCirurgia" layoutX="107.0" layoutY="340.0" prefHeight="26.0" prefWidth="584.0" />
+                        <RadioButton fx:id="rdCirurgiaSim" layoutX="199.0" layoutY="228.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rdCirurgiaNao" layoutX="260.0" layoutY="228.0" mnemonicParsing="false" text="Não" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="QUALIDADE DE VIDA E SAÚDE">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<RadioButton fx:id="rdTrabalhaSim" layoutX="204.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbTrabalhaNao" layoutX="268.0" layoutY="13.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="14.0" layoutY="14.0" text="Atualmente você trabalha?" />
+								<Label layoutX="335.0" layoutY="14.0" text="Quantas horas por dia?" />
+								<TextField fx:id="txtHorasTrabalho" layoutX="500.0" layoutY="9.0" prefHeight="26.0" prefWidth="80.0" />
+								<Label layoutX="14.0" layoutY="43.0" text="Descreva suas principais funções motoras no trabalho." />
+								<TextArea fx:id="txtFuncoesTrabalho" layoutX="14.0" layoutY="66.0" prefHeight="64.0" prefWidth="693.0" />
+								<Label layoutX="14.0" layoutY="142.0" text="Você faz algum movimento repetitivo durante o dia ou turno de trabalho? " />
+								<RadioButton fx:id="rbMovimentoSim" layoutX="508.0" layoutY="141.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbMovimentoNao" layoutX="572.0" layoutY="141.0" mnemonicParsing="false" text="Não" />
+								<TextArea fx:id="txtMovimentoRepetido" layoutX="14.0" layoutY="161.0" prefHeight="64.0" prefWidth="693.0" />
+								<Label layoutX="14.0" layoutY="237.0" text="Você se cansa facilmente quando faz atividade física? " />
+								<RadioButton fx:id="rbCansaSim" layoutX="386.0" layoutY="236.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbCansaNao" layoutX="450.0" layoutY="236.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="14.0" layoutY="268.0" text="Com que frequência você se sente estressado (irritado)?" />
+								<ComboBox fx:id="cboFrequenciaEstresse" layoutX="400.0" layoutY="263.0" prefWidth="150.0" />
+								<Label layoutX="14.0" layoutY="300.0" text="Em uma escala de 0 a 10, como você avalia o seu nível de stress?" />
+								<Spinner fx:id="spiEscalaEstresse" layoutX="455.0" layoutY="295.0" prefHeight="26.0" prefWidth="76.0" />
+								<Label layoutX="14.0" layoutY="331.0" text="Qual(is) motivo(s)?" />
+								<TextField fx:id="txtMotivoEstresse" layoutX="143.0" layoutY="326.0" prefHeight="26.0" prefWidth="569.0" />
+								<Label layoutX="14.0" layoutY="366.0" text="Atualmente fuma?" />
+								<RadioButton fx:id="rbFumaSim" layoutX="151.0" layoutY="365.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbFumaNao" layoutX="215.0" layoutY="365.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="293.0" layoutY="366.0" text="Há quanto tempo?" />
+								<TextField fx:id="txtTempoFuma" layoutX="428.0" layoutY="361.0" prefHeight="26.0" prefWidth="104.0" />
+								<Label layoutX="14.0" layoutY="396.0" text="Quantos cigarros por dia?" />
+								<ComboBox fx:id="cboQuantoFuma" layoutX="193.0" layoutY="391.0" prefWidth="150.0" />
+								<Label layoutX="354.0" layoutY="396.0" text="Tentou parar?" />
+								<RadioButton fx:id="rbTantouSim" layoutX="451.0" layoutY="395.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbTentouNao" layoutX="515.0" layoutY="395.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="14.0" layoutY="427.0" text="Fisicamente o que mudou?" />
+								<TextField fx:id="txtMudancaFisicaFuma" layoutX="197.0" layoutY="422.0" prefHeight="26.0" prefWidth="518.0" />
+								<Label layoutX="14.0" layoutY="458.0" text="Já fumou?" />
+								<RadioButton fx:id="rbFumouSim" layoutX="90.0" layoutY="457.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbFumouNao" layoutX="154.0" layoutY="457.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="11.0" layoutY="489.0" text="Por quanto tempo fumou?" />
+								<TextField fx:id="txtTempoFumou" layoutX="193.0" layoutY="484.0" prefHeight="26.0" prefWidth="104.0" />
+								<Label layoutX="308.0" layoutY="489.0" text="Quantos cigarros por dia?" />
+								<Label layoutX="13.0" layoutY="526.0" text="Há quanto tempo não fuma?" />
+								<TextField fx:id="txtTempoNaoFuma" layoutX="207.0" layoutY="521.0" prefHeight="26.0" prefWidth="104.0" />
+								<Spinner fx:id="spQuantoFumou" layoutX="487.0" layoutY="484.0" prefHeight="26.0" prefWidth="76.0" />
+								<Label layoutX="325.0" layoutY="526.0" text="Fisicamente o que mudou?" />
+								<TextField fx:id="txtMudancaFisicaFumou" layoutX="505.0" layoutY="521.0" prefHeight="26.0" prefWidth="207.0" />
+								<Button layoutX="214.0" layoutY="453.0" mnemonicParsing="false" text="+" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="QUALIDADE DE VIDA E SAÚDE pt2">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<RadioButton layoutX="197.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton layoutX="261.0" layoutY="13.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="14.0" layoutY="14.0" text="Ingere bebidas alcoólicas?" />
+								<Label layoutX="335.0" layoutY="14.0" text="Quais dias? " />
+								<TextField fx:id="txtDiasAlcool" layoutX="416.0" layoutY="9.0" prefHeight="26.0" prefWidth="159.0" />
+								<Label layoutX="11.0" layoutY="169.0" text="Acorda quantas vezes por noite?" />
+								<RadioButton fx:id="rbAcordaSim" layoutX="232.0" layoutY="168.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbAcordaNao" layoutX="296.0" layoutY="168.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="363.0" layoutY="169.0" text="Qual(is) motivo(s)?" />
+								<TextField fx:id="txtMotivoAcorda" layoutX="493.0" layoutY="164.0" prefHeight="26.0" prefWidth="219.0" />
+								<Label layoutX="12.0" layoutY="272.0" text="Utiliza algum medicamento para dormir?" />
+								<RadioButton fx:id="rbMedicamentoSim" layoutX="291.0" layoutY="271.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbMedicamentoNao" layoutX="355.0" layoutY="271.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="12.0" layoutY="202.0" text="Maior incidencia em algum dia?" />
+								<RadioButton layoutX="232.0" layoutY="201.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton layoutX="296.0" layoutY="201.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="12.0" layoutY="238.0" text="Algum motivo específico?" />
+								<TextField fx:id="txtMotivoEspAcorda" layoutX="191.0" layoutY="233.0" prefHeight="26.0" prefWidth="519.0" />
+								<Label layoutX="12.0" layoutY="306.0" text="Faz dieta? " />
+								<RadioButton fx:id="rbDietaSim" layoutX="88.0" layoutY="305.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbDietaNao" layoutX="152.0" layoutY="305.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="15.0" layoutY="45.0" text="Quais bebidas?" />
+								<TextField fx:id="txtQualAlcool" layoutX="122.0" layoutY="40.0" prefHeight="26.0" prefWidth="159.0" />
+								<Label layoutX="292.0" layoutY="45.0" text="Quantidade?" />
+								<TextField fx:id="txtQuantoAlcool" layoutX="386.0" layoutY="40.0" prefHeight="26.0" prefWidth="330.0" />
+								<Label layoutX="15.0" layoutY="75.0" text="Bebe em média qts litros de água/dia?" />
+								<Spinner fx:id="spQuantaAgua" layoutX="273.0" layoutY="70.0" prefHeight="26.0" prefWidth="76.0" />
+								<RadioButton fx:id="rbSedeSim" layoutX="587.0" layoutY="74.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbSedeNao" layoutX="651.0" layoutY="74.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="363.0" layoutY="75.0" text="Espera ter sede pra beber água?" />
+								<Label layoutX="15.0" layoutY="109.0" text="Dorme em média quantas horas/dia?" />
+								<Spinner fx:id="spHrsSono" layoutX="267.0" layoutY="104.0" prefHeight="26.0" prefWidth="76.0" />
+								<Label layoutX="12.0" layoutY="138.0" text="De 0 a 10, como classifica o seu nível de recuperação?" />
+								<Spinner fx:id="spRecuperacao" layoutX="376.0" layoutY="133.0" prefHeight="26.0" prefWidth="76.0" />
+								<Label layoutX="362.0" layoutY="203.0" text="Qual?" />
+								<TextField fx:id="txtDiaAcorda" layoutX="405.0" layoutY="198.0" prefHeight="26.0" prefWidth="306.0" />
+								<Label layoutX="419.0" layoutY="272.0" text="Qual?" />
+								<TextField fx:id="txtQualMedicamento" layoutX="468.0" layoutY="267.0" prefHeight="26.0" prefWidth="247.0" />
+								<Label layoutX="214.0" layoutY="306.0" text="Qual?" />
+								<TextField fx:id="txtQualDieta" layoutX="263.0" layoutY="301.0" prefHeight="26.0" prefWidth="448.0" />
+								<Label layoutX="11.0" layoutY="340.0" text="Qual intuito?" />
+								<TextField fx:id="txtIntuitoDieta" layoutX="106.0" layoutY="335.0" prefHeight="26.0" prefWidth="218.0" />
+								<Label layoutX="334.0" layoutY="340.0" text="Há quanto tempo?" />
+								<TextField fx:id="txtTempoDieta" layoutX="467.0" layoutY="335.0" prefHeight="26.0" prefWidth="242.0" />
+								<Label layoutX="11.0" layoutY="378.0" text="Resultado:" />
+								<TextField fx:id="txtResultadoDieta" layoutX="89.0" layoutY="373.0" prefHeight="26.0" prefWidth="620.0" />
+								<Label layoutX="11.0" layoutY="414.0" text="Já fez dieta? " />
+								<RadioButton fx:id="rbDietaFezSim" layoutX="97.0" layoutY="413.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbDietaFezNao" layoutX="161.0" layoutY="413.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="223.0" layoutY="414.0" text="Qual?" />
+								<TextField fx:id="txtQualDietaAnterior" layoutX="272.0" layoutY="409.0" prefHeight="26.0" prefWidth="448.0" />
+								<Label layoutX="22.0" layoutY="448.0" text="Qual intuito?" />
+								<TextField fx:id="txtIntuitoDietaAnterior" layoutX="119.0" layoutY="443.0" prefHeight="26.0" prefWidth="210.0" />
+								<Label layoutX="343.0" layoutY="448.0" text="Há quanto tempo?" />
+								<TextField fx:id="txtQuantasQuando" layoutX="476.0" layoutY="443.0" prefHeight="26.0" prefWidth="242.0" />
+								<Label layoutX="11.0" layoutY="486.0" text="Resultado:" />
+								<TextField fx:id="txtResultadoDietaAnterior" layoutX="89.0" layoutY="481.0" prefHeight="26.0" prefWidth="629.0" />
+								<Label layoutX="11.0" layoutY="518.0" text="Utiliza algum suplemento? " />
+								<RadioButton fx:id="rbSuplementoSIm" layoutX="197.0" layoutY="517.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbSuplementoNao" layoutX="261.0" layoutY="517.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="327.0" layoutY="518.0" text="Descrição" />
+								<TextField fx:id="txtQualSuplemento" layoutX="396.0" layoutY="513.0" prefHeight="26.0" prefWidth="314.0" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="DOENÇAS">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<CheckBox fx:id="chkDAC" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" text="Doença Arterial Coronariana (DAC)" />
+								<CheckBox fx:id="chkDiabetes" layoutX="12.0" layoutY="37.0" mnemonicParsing="false" text="Diabetes" />
+								<CheckBox fx:id="chkHipertensao" layoutX="12.0" layoutY="61.0" mnemonicParsing="false" text="Hipertensão" />
+								<CheckBox fx:id="chkHipotensso" layoutX="12.0" layoutY="85.0" mnemonicParsing="false" text="Hipotensão" />
+								<CheckBox fx:id="chkDislipidemia" layoutX="11.0" layoutY="152.0" mnemonicParsing="false" text="Dislipidemia" />
+								<CheckBox fx:id="chkDoencaPulmonar" layoutX="11.0" layoutY="189.0" mnemonicParsing="false" text="Doença Pulmonar" />
+								<CheckBox fx:id="chkDoencaVascularPeriférica" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" text="Doença Vascular Periférica" />
+								<CheckBox fx:id="chkOutrasDoencaEsp" layoutX="11.0" layoutY="256.0" mnemonicParsing="false" text="Alguma outra não citada" />
+								<Label layoutX="142.0" layoutY="86.0" text="Qual a pressão Média?" />
+								<TextField fx:id="txtPressaoMedia" layoutX="298.0" layoutY="81.0" prefHeight="26.0" prefWidth="62.0" />
+								<Label layoutX="368.0" layoutY="86.0" text="Sente mal estar" />
+								<RadioButton fx:id="rbSenteMalSim" layoutX="484.0" layoutY="85.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbSenteMalNao" layoutX="540.0" layoutY="85.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="19.0" layoutY="115.0" text="Quais os sintomas?" />
+								<TextField fx:id="txtSintomasHipo" layoutX="160.0" layoutY="111.0" prefHeight="26.0" prefWidth="647.0" />
+								<Label layoutX="140.0" layoutY="153.0" text="Desde" />
+								<TextField fx:id="txtDesdeDislipidemia" layoutX="190.0" layoutY="148.0" prefHeight="26.0" prefWidth="223.0" />
+								<Label layoutX="423.0" layoutY="153.0" text="Medicamento" />
+								<TextField fx:id="txtMedicamentoDislipidemia" layoutX="523.0" layoutY="148.0" prefHeight="26.0" prefWidth="261.0" />
+								<Label layoutX="167.0" layoutY="190.0" text="Desde" />
+								<TextField fx:id="txtDesdeDoencaPulmonar" layoutX="217.0" layoutY="185.0" prefHeight="26.0" prefWidth="223.0" />
+								<Label layoutX="450.0" layoutY="190.0" text="Medicamento" />
+								<TextField fx:id="txtMedicamentoDoencaPulmonar" layoutX="550.0" layoutY="185.0" prefHeight="26.0" prefWidth="261.0" />
+								<Label layoutX="232.0" layoutY="224.0" text="Desde" />
+								<TextField fx:id="txtDesdeDoencaVascularPeriférica" layoutX="282.0" layoutY="219.0" prefHeight="26.0" prefWidth="223.0" />
+								<Label layoutX="520.0" layoutY="224.0" text="Medicamento" />
+								<TextField fx:id="txtMedicamentoDoencaVascularPeriférica" layoutX="618.0" layoutY="219.0" prefHeight="26.0" prefWidth="193.0" />
+								<Label layoutX="20.0" layoutY="289.0" text="Desde" />
+								<TextField fx:id="txtDesdeDoencaOutras" layoutX="70.0" layoutY="284.0" prefHeight="26.0" prefWidth="223.0" />
+								<Label layoutX="299.0" layoutY="289.0" text="Medicamento" />
+								<TextField fx:id="txtMedicamentoOutras" layoutX="397.0" layoutY="284.0" prefHeight="26.0" prefWidth="211.0" />
+								<Label layoutX="224.0" layoutY="257.0" text="Qual" />
+								<TextField fx:id="txtQualOutras" layoutX="265.0" layoutY="252.0" prefHeight="26.0" prefWidth="347.0" />
+								<Button layoutX="623.0" layoutY="252.0" mnemonicParsing="false" text="+" />
+								<Label layoutX="12.0" layoutY="322.0" text="Utiliza algum outro medicamento?" />
+								<RadioButton fx:id="rbMedicamentoEspSim" layoutX="248.0" layoutY="321.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbMedicamentoEspNao" layoutX="304.0" layoutY="321.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="12.0" layoutY="355.0" text="Qual ?" />
+								<TextField fx:id="txtQualMedicamentoEsp" layoutX="61.0" layoutY="350.0" prefHeight="26.0" prefWidth="339.0" />
+								<Label layoutX="414.0" layoutY="355.0" text="Qual finalidade?" />
+								<TextField fx:id="txtFinalidadeMedicamento" layoutX="524.0" layoutY="350.0" prefHeight="26.0" prefWidth="285.0" />
+								<Label layoutX="12.0" layoutY="392.0" text="Há quanto tempo" />
+								<TextField fx:id="txtTempoMedicamento" layoutX="135.0" layoutY="387.0" prefHeight="26.0" prefWidth="265.0" />
+								<Label layoutX="418.0" layoutY="392.0" text="Horário de uso" />
+								<TextField fx:id="txtHorarioMedicamento" layoutX="522.0" layoutY="387.0" prefHeight="26.0" prefWidth="291.0" />
+								<Label layoutX="11.0" layoutY="430.0" text="Dose utilizada" />
+								<TextField fx:id="txtDoseMedicamento" layoutX="116.0" layoutY="425.0" prefHeight="26.0" prefWidth="265.0" />
+								<Button layoutX="367.0" layoutY="317.0" mnemonicParsing="false" text="+" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="APENAS MULHERES">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="12.0" layoutY="16.0" text="Tem ou teve síndrome do ovário policístico" />
+								<Label layoutX="294.0" layoutY="47.0" text="Já passou pela menopausa" />
+								<Label layoutX="600.0" layoutY="47.0" text="Quando/idade" />
+								<Label layoutX="12.0" layoutY="81.0" text="O que mudou fisicamente" />
+								<Label layoutX="12.0" layoutY="115.0" text="Faz reposição hormonal" />
+								<Label layoutX="435.0" layoutY="16.0" text="Há quanto tempo" />
+								<Label layoutX="12.0" layoutY="47.0" text="Medicamento" />
+								<Label layoutX="12.0" layoutY="148.0" text="Dosagem" />
+								<Label layoutX="12.0" layoutY="180.0" text="Idade média de menopausa na sua família" />
+								<Label layoutX="373.0" layoutY="180.0" text="Parêntesco" />
+								<Label layoutX="12.0" layoutY="211.0" text="Tem ciclo menstrual regular" />
+								<Label layoutX="336.0" layoutY="211.0" text="Quando é o período menstrual" />
+								<Label layoutX="12.0" layoutY="244.0" text="Nos aspectos emocionais e físicos, como se sente na pré-menstruação" />
+								<Label layoutX="12.0" layoutY="408.0" text="Emocional" />
+								<Label layoutX="12.0" layoutY="436.0" text="Físico" />
+								<Label layoutX="12.0" layoutY="344.0" text="INTENSIDADE DOS SINTOMAS:" />
+								<Label layoutX="12.0" layoutY="382.0" text="Nos aspectos emocionais e físicos, como se sente durante a menstruação" />
+								<Label layoutX="12.0" layoutY="276.0" text="Emocional" />
+								<Label layoutX="12.0" layoutY="310.0" text="Físico" />
+								<Label layoutX="12.0" layoutY="477.0" text="INTENSIDADE DOS SINTOMAS:" />
+								<TextField fx:id="txtDMIntencidade" layoutX="222.0" layoutY="472.0" />
+								<TextField fx:id="txtDMFisico" layoutX="92.0" layoutY="439.0" />
+								<TextField fx:id="txtDMEmocional" layoutX="92.0" layoutY="403.0" />
+								<TextField fx:id="txtPMIntencidade" layoutX="217.0" layoutY="340.0" prefHeight="26.0" prefWidth="371.0" />
+								<TextField fx:id="txtPMFisico" layoutX="92.0" layoutY="305.0" />
+								<TextField fx:id="txtPMEmocional" layoutX="92.0" layoutY="271.0" />
+								<TextField fx:id="txtQuandoPeriodoMenstrual" layoutX="543.0" layoutY="206.0" />
+								<TextField fx:id="txtParentesco" layoutX="457.0" layoutY="175.0" />
+								<TextField fx:id="txtIdadeMediaMenopausa" layoutX="302.0" layoutY="175.0" prefHeight="26.0" prefWidth="62.0" />
+								<TextField fx:id="txtDosagemReposicao" layoutX="83.0" layoutY="143.0" />
+								<TextField fx:id="txtMudancaMenopausa" layoutX="190.0" layoutY="76.0" prefHeight="26.0" prefWidth="609.0" />
+								<TextField fx:id="txtIdadeMenopausa" layoutX="697.0" layoutY="42.0" prefHeight="26.0" prefWidth="63.0" />
+								<TextField fx:id="txtMedicamentoOvario" layoutX="110.0" layoutY="44.0" />
+								<TextField fx:id="txtTempoOvario" layoutX="562.0" layoutY="11.0" prefHeight="26.0" prefWidth="54.0" />
+								<RadioButton fx:id="rbOvarioPolicisticoSim" layoutX="307.0" layoutY="15.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbOvarioPolicisticoNao" layoutX="370.0" layoutY="15.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbMenopausaSim" layoutX="476.0" layoutY="46.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbMenopausaNao" layoutX="539.0" layoutY="46.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="305.0" layoutY="115.0" text="Há quanto tempo" />
+								<TextField fx:id="txtTempoReposicao" layoutX="432.0" layoutY="110.0" prefHeight="26.0" prefWidth="54.0" />
+								<RadioButton fx:id="rbReposicaoHormonalSim" layoutX="177.0" layoutY="114.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbReposicaoHormonalNao" layoutX="240.0" layoutY="114.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="498.0" layoutY="115.0" text="Medicamento" />
+								<TextField fx:id="txtMedicamentoReposicao" layoutX="596.0" layoutY="112.0" />
+								<RadioButton fx:id="rbCicloMenstrualRegularSim" layoutX="208.0" layoutY="210.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbCicloMenstrualRegularNao" layoutX="271.0" layoutY="210.0" mnemonicParsing="false" text="Não" />
+								<Button layoutX="476.0" layoutY="239.0" mnemonicParsing="false" text="+" />
+
+
+
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="ANAMNESE MODALIDADES DESPORTIVAS">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="12.0" layoutY="22.0" text="Qual esporte você pratica?" />
+								<Label layoutX="377.0" layoutY="22.0" text="Possui quanto tempo de prática?" />
+								<Label layoutX="11.0" layoutY="58.0" text="Que posição joga?" />
+								<Label layoutX="323.0" layoutY="58.0" text="Qual seu estilo preferido de jogo?" />
+								<Label layoutX="12.0" layoutY="91.0" text="Fisicamente o que você mais gostaria de melhorar no seu desempenho? " />
+								<Label layoutX="12.0" layoutY="129.0" text="Tem dificuldades específicas durante as ações do jogo?" />
+								<Label layoutX="12.0" layoutY="157.0" text="Você se cansa facilmente durante o jogo?" />
+								<Label layoutX="11.0" layoutY="189.0" text="Em quais ocasiões ou circunstâncias?" />
+								<Label layoutX="9.0" layoutY="224.0" text="Como você se sente quando termina o jogo?" />
+								<Label layoutX="466.0" layoutY="224.0" text="Algum motivo específico?" />
+								<Label layoutX="12.0" layoutY="258.0" text="Joga em quais dias da semana?" />
+								<Label layoutX="399.0" layoutY="258.0" text="Em qual período" />
+								<Label layoutX="12.0" layoutY="294.0" text="Qual a duração dos jogos/partidas" />
+								<Label layoutX="431.0" layoutY="294.0" text="Joga " />
+								<Label layoutX="4.0" layoutY="329.0" text=" Qual o local específico de jogo? (Quadra, campo, etc...)" />
+								<Label layoutX="12.0" layoutY="362.0" text="Está em boas condições?" />
+								<Label layoutX="317.0" layoutY="361.0" text="Motivo" />
+								<Label layoutX="14.0" layoutY="389.0" text="Disputa ou vai disputar alguma competição? " />
+								<Label layoutX="14.0" layoutY="420.0" text="Qual" />
+								<Label layoutX="247.0" layoutY="420.0" text="Quando inicia/iniciou?" />
+								<Label layoutX="12.0" layoutY="454.0" text="Qual a duração da competição?" />
+								<Label layoutX="411.0" layoutY="454.0" text="Quais os dias dos jogos?" />
+								<TextField fx:id="txtEsporte" layoutX="200.0" layoutY="17.0" />
+								<TextField fx:id="txtTempoEsporte" layoutX="597.0" layoutY="17.0" />
+								<TextField fx:id="txtPosicaoEsporte" layoutX="144.0" layoutY="53.0" />
+								<TextField fx:id="txtEstiloEsporte" layoutX="549.0" layoutY="53.0" prefHeight="26.0" prefWidth="259.0" />
+								<TextField fx:id="txtMelhorarDesempenho" layoutX="499.0" layoutY="87.0" prefHeight="26.0" prefWidth="315.0" />
+								<TextField fx:id="txtDificuldadeEsporte" layoutX="387.0" layoutY="124.0" prefHeight="26.0" prefWidth="426.0" />
+								<TextField fx:id="txtCircunstanciaCansa" layoutX="264.0" layoutY="184.0" />
+								<TextField fx:id="txtMotivoSenteJogo" layoutX="637.0" layoutY="219.0" />
+								<TextField fx:id="txtDuracaoPartida" layoutX="245.0" layoutY="289.0" />
+								<TextField fx:id="txtLocalEsporte" layoutX="374.0" layoutY="324.0" />
+								<TextField fx:id="txtMotivoCondicaoFisica" layoutX="375.0" layoutY="356.0" />
+								<TextField fx:id="txtQualCompeticao" layoutX="59.0" layoutY="416.0" />
+								<TextField fx:id="txtQuandoIniciou" layoutX="405.0" layoutY="415.0" />
+								<TextField fx:id="txtDuracaoCompeticao" layoutX="233.0" layoutY="449.0" />
+								<TextField fx:id="txtDiasJogoCompeticao" layoutX="581.0" layoutY="449.0" />
+								<RadioButton fx:id="rbCansaDuranteEsporteSim" layoutX="294.0" layoutY="156.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbCansaDuranteEsporteNao" layoutX="350.0" layoutY="156.0" mnemonicParsing="false" text="Não" />
+								<ComboBox fx:id="cbSenteFinalJogo" layoutX="310.0" layoutY="219.0" prefWidth="150.0" />
+								<ComboBox fx:id="cbDiasJoga" layoutX="225.0" layoutY="253.0" prefWidth="150.0" />
+								<ComboBox fx:id="cbPeriodoJoga" layoutX="516.0" layoutY="253.0" prefWidth="150.0" />
+								<Button layoutX="679.0" layoutY="253.0" mnemonicParsing="false" text="+" />
+								<RadioButton fx:id="rbCondicaoFisicaSim" layoutX="188.0" layoutY="360.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbCondicaoFisicaNao" layoutX="244.0" layoutY="360.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbCompeticaoEsporteSim" layoutX="316.0" layoutY="388.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbCompeticaoEsporteNao" layoutX="372.0" layoutY="388.0" mnemonicParsing="false" text="Não" />
+								<Button layoutX="431.0" layoutY="384.0" mnemonicParsing="false" text="+" />
+                        <RadioButton layoutX="499.0" layoutY="293.0" mnemonicParsing="false" text="Continuamente" />
+                        <RadioButton layoutX="651.0" layoutY="293.0" mnemonicParsing="false" text="Revezamento" />
+
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="HISTÓRICO DE TREINAMENTO">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="14.0" layoutY="22.0" text="Já fez algum tipo de treinamento técnico ou físico complementar?" />
+								<Label layoutX="398.0" layoutY="55.0" text="Quando realizou?" />
+								<Label layoutX="18.0" layoutY="90.0" text="Qual a duração das sessões?" />
+								<Label layoutX="18.0" layoutY="55.0" text="Qual a frequência semanal?" />
+								<Label layoutX="393.0" layoutY="90.0" text="Há quanto tempo parou?" />
+								<RadioButton fx:id="rbTreinamentoSim" layoutX="457.0" layoutY="21.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbTreinamentoNao" layoutX="531.0" layoutY="21.0" mnemonicParsing="false" text="Não" />
+								<TextField fx:id="txtFrequenciaTreinamento" layoutX="214.0" layoutY="50.0" />
+								<TextField fx:id="txtRealizouTreinamento" layoutX="516.0" layoutY="50.0" prefHeight="26.0" prefWidth="249.0" />
+								<TextField fx:id="txtDuracaoTreinamento" layoutX="214.0" layoutY="87.0" />
+								<TextField fx:id="txtParouTreinamento" layoutX="564.0" layoutY="85.0" prefHeight="26.0" prefWidth="201.0" />
+								<Label layoutX="16.0" layoutY="134.0" text=" Você utiliza algum tipo de órtese para jogar?" />
+								<RadioButton fx:id="rbOrteseSim" layoutX="327.0" layoutY="133.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbOrteseNao" layoutX="401.0" layoutY="133.0" mnemonicParsing="false" text="Não" />
+								<Button layoutX="596.0" layoutY="17.0" mnemonicParsing="false" text="+" />
+								<Button layoutX="465.0" layoutY="129.0" mnemonicParsing="false" text="+" />
+								<Label layoutX="16.0" layoutY="168.0" text="Por qual motivo?" />
+								<TextField fx:id="txtMotivoOrtese" layoutX="135.0" layoutY="163.0" prefHeight="26.0" prefWidth="670.0" />
+								<Label layoutX="18.0" layoutY="199.0" text="Você cuida da reidratação durante e após os jogos/partidas?" />
+								<RadioButton fx:id="rbReidrataSim" layoutX="425.0" layoutY="198.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbReidrataNao" layoutX="499.0" layoutY="198.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="16.0" layoutY="233.0" text="O que ingere?" />
+								<TextField fx:id="txtIngereReidrata" layoutX="116.0" layoutY="228.0" prefHeight="26.0" prefWidth="689.0" />
+								<Label layoutX="16.0" layoutY="265.0" text=" Você se alimenta ANTES dos jogos? " />
+								<RadioButton fx:id="rbAlimentaAntesSim" layoutX="260.0" layoutY="264.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbAlimentaAntesNao" layoutX="334.0" layoutY="264.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="16.0" layoutY="295.0" text="Quanto tempo antes?" />
+								<TextField fx:id="txtTempoAlimenta" layoutX="164.0" layoutY="290.0" prefHeight="26.0" prefWidth="93.0" />
+								<Label layoutX="265.0" layoutY="295.0" text="O que costuma comer?" />
+								<TextField fx:id="txtCustumaComer" layoutX="426.0" layoutY="290.0" prefHeight="26.0" prefWidth="378.0" />
+								<Label layoutX="22.0" layoutY="325.0" text="Você se alimenta APÓS os jogos?" />
+								<RadioButton fx:id="rbAlimentaAposSim" layoutX="251.0" layoutY="324.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbAlimentaAposNao" layoutX="325.0" layoutY="324.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="22.0" layoutY="355.0" text="Quanto tempo após?" />
+								<TextField fx:id="txtTempoAlimentaApos" layoutX="170.0" layoutY="350.0" prefHeight="26.0" prefWidth="93.0" />
+								<Label layoutX="271.0" layoutY="355.0" text="O que costuma comer?" />
+								<TextField fx:id="txtCustumaComerApos" layoutX="432.0" layoutY="350.0" prefHeight="26.0" prefWidth="378.0" />
+								<Label layoutX="16.0" layoutY="392.0" text="Você utiliza algum tipo de suplemento alimentar? " />
+								<RadioButton fx:id="rbSuplementoAlimentarSim" layoutX="354.0" layoutY="391.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbSuplementoAlimentarNao" layoutX="428.0" layoutY="391.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="16.0" layoutY="427.0" text="Qual?" />
+								<TextField fx:id="txtQualSuplementoAli" layoutX="62.0" layoutY="422.0" prefHeight="26.0" prefWidth="195.0" />
+								<Label layoutX="265.0" layoutY="427.0" text="Em que momento?" />
+								<TextField fx:id="txtMomentoSuplementoAli" layoutX="399.0" layoutY="422.0" prefHeight="26.0" prefWidth="405.0" />
+								<Button layoutX="485.0" layoutY="387.0" mnemonicParsing="false" text="+" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="ANAMNESE CRIANÇAS">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="8.0" layoutY="14.0" text="Está em que ano escolar?" />
+								<Label layoutX="14.0" layoutY="47.0" text="Nome do pai:" />
+								<Label layoutX="534.0" layoutY="47.0" text="Idade:" />
+								<Label layoutX="11.0" layoutY="83.0" text="Profissão" />
+								<Label layoutX="499.0" layoutY="83.0" text="Turno de trabalho:" />
+								<Label layoutX="11.0" layoutY="116.0" text="Fisicamente ativo?" />
+								<Label layoutX="284.0" layoutY="276.0" text="O que pratica?" />
+								<Label layoutX="12.0" layoutY="151.0" text="Há quanto tempo (Em média):" />
+								<Label layoutX="10.0" layoutY="205.0" text="Nome da mãe:" />
+								<Label layoutX="530.0" layoutY="205.0" text="Idade" />
+								<Label layoutX="11.0" layoutY="241.0" text="Profissão:" />
+								<Label layoutX="506.0" layoutY="241.0" text="Turno de trabalho:" />
+								<Label layoutX="11.0" layoutY="276.0" text="Fisicamente ativo?" />
+								<Label layoutX="287.0" layoutY="116.0" text="O que pratica?" />
+								<Label layoutX="11.0" layoutY="309.0" text="Há quanto tempo (Em média):" />
+								<Label layoutX="12.0" layoutY="342.0" text="São separados?" />
+								<Label layoutX="273.0" layoutY="342.0" text="Há quanto tempo " />
+								<Label layoutX="11.0" layoutY="376.0" text="Quantos irmãos?" />
+								<Label layoutX="212.0" layoutY="376.0" text="Ordem do nascimento:" />
+								<Label layoutX="13.0" layoutY="411.0" text="Os pais incentivam a prática esportiva?" />
+								<Label layoutX="400.0" layoutY="411.0" text="Algo específico?" />
+								<TextField fx:id="txtAtraiuEsporte" layoutX="552.0" layoutY="513.0" prefHeight="26.0" prefWidth="253.0" />
+								<TextField fx:id="txtDuracaoEsporte" layoutX="485.0" layoutY="478.0" prefHeight="26.0" prefWidth="325.0" />
+								<TextField fx:id="txtQuantoTempoEsporte" layoutX="142.0" layoutY="478.0" prefHeight="26.0" prefWidth="119.0" />
+								<TextField fx:id="txtAlgoEspecifico" layoutX="520.0" layoutY="406.0" prefHeight="26.0" prefWidth="295.0" />
+								<TextField fx:id="txtOrdemNascimento" layoutX="373.0" layoutY="371.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtQuantoIrmaos" layoutX="129.0" layoutY="371.0" prefHeight="26.0" prefWidth="71.0" />
+								<TextField fx:id="txtTempoSeparado" layoutX="400.0" layoutY="337.0" prefHeight="26.0" prefWidth="290.0" />
+								<TextField fx:id="txtTempoPraticaPai" layoutX="213.0" layoutY="146.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtPraticaPai" layoutX="393.0" layoutY="111.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtTurnoTrabalhoPai" layoutX="632.0" layoutY="78.0" prefHeight="26.0" prefWidth="174.0" />
+								<TextField fx:id="txtProfissaoPai" layoutX="82.0" layoutY="78.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtIdadePai" layoutX="582.0" layoutY="42.0" prefHeight="26.0" prefWidth="71.0" />
+								<TextField fx:id="txtNomePai" layoutX="111.0" layoutY="42.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtAnoEscolarCrianca" layoutX="182.0" layoutY="9.0" prefHeight="26.0" prefWidth="102.0" />
+								<RadioButton fx:id="rbFisicamenteAtivaSim" layoutX="147.0" layoutY="115.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbFisicamenteAtivaNao" layoutX="214.0" layoutY="115.0" mnemonicParsing="false" text="Não" />
+								<TextField fx:id="txtTempoPraticaMae" layoutX="214.0" layoutY="304.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtPraticaMae" layoutX="383.0" layoutY="269.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtTurnoTrabalhoMae" layoutX="632.0" layoutY="236.0" prefHeight="26.0" prefWidth="174.0" />
+								<TextField fx:id="txtProfissaoMae" layoutX="82.0" layoutY="236.0" prefHeight="26.0" prefWidth="405.0" />
+								<TextField fx:id="txtIdadeMae" layoutX="579.0" layoutY="200.0" prefHeight="26.0" prefWidth="71.0" />
+								<TextField fx:id="txtNomeMae" layoutX="115.0" layoutY="200.0" prefHeight="26.0" prefWidth="405.0" />
+								<RadioButton fx:id="rbFisicamenteAtivaMaeSim" layoutX="137.0" layoutY="273.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbFisicamenteAtivaMaeNao" layoutX="204.0" layoutY="273.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbSeparadosSim" layoutX="134.0" layoutY="341.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbSeparadosNao" layoutX="201.0" layoutY="341.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbIncentivaPraticaSim" layoutX="277.0" layoutY="410.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbIncentivaPraticaNao" layoutX="335.0" layoutY="410.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="14.0" layoutY="447.0" text="Você pratica algum esporte?" />
+								<RadioButton fx:id="rbPraticaEsporteSim" layoutX="211.0" layoutY="446.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbPraticaEsporteNao" layoutX="278.0" layoutY="446.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="334.0" layoutY="449.0" text="O que pratica?" />
+								<TextField fx:id="txtQualEsportePratica" layoutX="446.0" layoutY="442.0" prefHeight="26.0" prefWidth="266.0" />
+								<Button layoutX="726.0" layoutY="442.0" mnemonicParsing="false" text="+" />
+								<Label layoutX="13.0" layoutY="483.0" text="Por quanto tempo" />
+								<Label layoutX="269.0" layoutY="483.0" text="Com que frequência e duração?" />
+								<Label layoutX="14.0" layoutY="519.0" text="Como se sente no final" />
+								<ComboBox fx:id="cbSenteFinal" layoutX="176.0" layoutY="514.0" prefWidth="150.0" />
+								<Label layoutX="344.0" layoutY="518.0" text="O que te atraiu neste esporte?" />
+
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="ANAMNESE CRIANÇAS pt2">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="14.0" layoutY="14.0" text="Você já praticou algum esporte?" />
+								<Label layoutX="354.0" layoutY="14.0" text="Qual?" />
+								<Label layoutX="14.0" layoutY="45.0" text="Por quanto tempo?" />
+								<Label layoutX="428.0" layoutY="45.0" text="Com que frequência?" />
+								<Label layoutX="14.0" layoutY="79.0" text="O que te atraiu neste esporte?" />
+								<Label layoutX="14.0" layoutY="114.0" text="Você sonha ou já sonhou em ser jogador profissional?" />
+								<Label layoutX="11.0" layoutY="145.0" text="Caso já sonhou, por que não sonha mais?" />
+								<Label layoutX="10.0" layoutY="177.0" text="Quais tipos de brincadeiras você gosta? " />
+								<Label layoutX="14.0" layoutY="208.0" text="Quais tipos de brincadeiras você não gosta?" />
+								<Label layoutX="584.0" layoutY="208.0" text="Por quê?" />
+								<Label layoutX="14.0" layoutY="238.0" text="Seus amigos gostam de brincar/jogar (atividades fisicas)?" />
+								<Label layoutX="18.0" layoutY="266.0" text="Quantas vezes por semana você tem aula de Educação Física? " />
+								<Label layoutX="11.0" layoutY="300.0" text="Qual a duração das aulas?" />
+								<Label layoutX="280.0" layoutY="299.0" text="O que a escola oferece de atividades e modalidades?" />
+								<Label layoutX="14.0" layoutY="330.0" text="Quais atividades você pratica na aula? " />
+								<Label layoutX="549.0" layoutY="330.0" text="Onde são feitas as atividades?" />
+								<Label layoutX="10.0" layoutY="363.0" text="Como o professor costuma dar aula?" />
+								<Label layoutX="11.0" layoutY="391.0" text="Você gosta do seu professor?" />
+								<Label layoutX="332.0" layoutY="392.0" text="Por que?" />
+								<Label layoutX="15.0" layoutY="421.0" text="Os meninos e meninas são separados?" />
+								<Label layoutX="13.0" layoutY="451.0" text="O que você mais gosta das aulas de E.F.?" />
+								<Label layoutX="18.0" layoutY="481.0" text="Por quê?" />
+								<Label layoutX="11.0" layoutY="512.0" text="Tem algo que você não gosta das aulas de EF? " />
+								<Label layoutX="18.0" layoutY="541.0" text="Por quê?" />
+								<TextField fx:id="txtEsportePraticou" layoutX="405.0" layoutY="9.0" prefHeight="26.0" prefWidth="309.0" />
+								<TextField fx:id="txtTempoPraticou" layoutX="160.0" layoutY="40.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtFrequenciaPraticou" layoutX="573.0" layoutY="40.0" prefHeight="26.0" prefWidth="224.0" />
+								<TextField fx:id="txtAtraiuPraticou" layoutX="221.0" layoutY="74.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtMotivoNaoSonha" layoutX="293.0" layoutY="140.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtBrincadeiraGosta" layoutX="277.0" layoutY="172.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtBrincadeiraNaoGosta" layoutX="307.0" layoutY="203.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtPqNaoGostaBrincadeira" layoutX="648.0" layoutY="203.0" prefHeight="26.0" prefWidth="158.0" />
+								<TextField fx:id="txtSeusAmigosGosta" layoutX="397.0" layoutY="233.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtVezesAulaEdFi" layoutX="440.0" layoutY="263.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtDuracaoAula" layoutX="190.0" layoutY="295.0" prefHeight="26.0" prefWidth="82.0" />
+								<TextField fx:id="txtEscolaOferece" layoutX="637.0" layoutY="294.0" prefHeight="26.0" prefWidth="172.0" />
+								<TextField fx:id="txtPorqueNaoGosta" layoutX="81.0" layoutY="536.0" prefHeight="26.0" prefWidth="731.0" />
+								<TextField fx:id="txtAlgoNaoGosta" layoutX="328.0" layoutY="507.0" prefHeight="26.0" prefWidth="266.0" />
+								<TextField fx:id="txtMaisGostaAula" layoutX="288.0" layoutY="446.0" prefHeight="26.0" prefWidth="523.0" />
+								<TextField fx:id="txtPorqueGosta" layoutX="81.0" layoutY="476.0" prefHeight="26.0" prefWidth="730.0" />
+								<TextField fx:id="txtPorqueGostaProfessor" layoutX="396.0" layoutY="387.0" prefHeight="26.0" prefWidth="332.0" />
+								<TextField fx:id="txtProfessoraAula" layoutX="264.0" layoutY="358.0" prefHeight="26.0" prefWidth="273.0" />
+								<TextField fx:id="txtPraticaAula" layoutX="272.0" layoutY="325.0" prefHeight="26.0" prefWidth="266.0" />
+								<RadioButton fx:id="rbPraticouEsporteSim" layoutX="234.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbPraticouEsporteNao" layoutX="293.0" layoutY="13.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbJogarProfissionalSim" layoutX="372.0" layoutY="113.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbJogarProfissionalNao" layoutX="431.0" layoutY="113.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbMeninosSeparadosSim" layoutX="278.0" layoutY="420.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbMeninosSeparadosNao" layoutX="337.0" layoutY="420.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbGostaProfessorSim" layoutX="210.0" layoutY="390.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbGostaProfessorNao" layoutX="269.0" layoutY="390.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="397.0" layoutY="421.0" text="Por que?" />
+								<TextField fx:id="txtPorqueMeninosSeparados" layoutX="461.0" layoutY="416.0" prefHeight="26.0" prefWidth="332.0" />
+
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="ANAMNESE CRIANÇAS pt3">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="13.0" layoutY="116.0" text="Moram em:" />
+
+								<RadioButton fx:id="rbCasa" layoutX="100.0" layoutY="115.0" mnemonicParsing="false" text="Casa" />
+								<RadioButton fx:id="rbApartamento" layoutX="159.0" layoutY="115.0" mnemonicParsing="false" text="Apartamento" />
+
+								<Label layoutX="281.0" layoutY="116.0" text="Casa: Possui quintal? " />
+
+								<RadioButton fx:id="rbPossuiQuintalSim" layoutX="428.0" layoutY="115.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbPossuiQuintalNao" layoutX="487.0" layoutY="115.0" mnemonicParsing="false" text="Não" />
+
+
+								<Label layoutX="547.0" layoutY="116.0" text="É possível utiliza-lo?" />
+
+
+								<Label layoutX="10.0" layoutY="158.0" text="Apartamento: Possui área de lazer? " />
+								<TextField fx:id="txtAlgumTalento" layoutX="413.0" layoutY="75.0" prefHeight="26.0" prefWidth="401.0" />
+
+
+
+								<Label layoutX="372.0" layoutY="158.0" text="Quais as opções?" />
+
+								<Label layoutX="14.0" layoutY="195.0" text="Tem espaço e segurança para brincar na rua?" />
+
+								<Label layoutX="443.0" layoutY="195.0" text="Sócio de clube? " />
+								<TextField fx:id="txtBrincadeiras" layoutX="566.0" layoutY="261.0" />
+
+								<Label layoutX="222.0" layoutY="228.0" text="Frequência:" />
+								<TextField fx:id="txtFrequenciaDuracao" layoutX="237.0" layoutY="261.0" />
+
+								<Label layoutX="470.0" layoutY="228.0" text="Os pais costumam brincar junto? " />
+
+								<Label layoutX="16.0" layoutY="266.0" text="Com que frequência e duração? " />
+								<TextField fx:id="txtFrequencia" layoutX="309.0" layoutY="223.0" prefHeight="26.0" prefWidth="152.0" />
+
+								<Label layoutX="425.0" layoutY="266.0" text="Quais brincadeiras?" />
+								<TextField fx:id="txtOpcoesLazer" layoutX="492.0" layoutY="153.0" prefHeight="26.0" prefWidth="318.0" />
+
+								<Label layoutX="12.0" layoutY="14.0" text="Seus amigos gostam das mesmas brincadeira e atividades que você? " />
+								<Label layoutX="10.0" layoutY="44.0" text="Seu professor incetiva a prática de esportes fora da escola?" />
+								<Label layoutX="9.0" layoutY="80.0" text="Ele já disse que você tem talento para algum esporte, Qual?" />
+								<RadioButton fx:id="rbUtilizarQuintalSim" layoutX="690.0" layoutY="115.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbUtilizarQuintalNao" layoutX="749.0" layoutY="115.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbAmigosGostamBrincadeiraSim" layoutX="482.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbAmigosGostamBrincadeiraNao" layoutX="541.0" layoutY="13.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbProfessorIncentivaSim" layoutX="405.0" layoutY="43.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbProfessorIncentivaNao" layoutX="464.0" layoutY="43.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbAreaLazerSim" layoutX="256.0" layoutY="157.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbAreaLazerNao" layoutX="315.0" layoutY="157.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbBrincarRuaSim" layoutX="322.0" layoutY="194.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbBrincarRuaNao" layoutX="381.0" layoutY="194.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbSocioClubeSim" layoutX="555.0" layoutY="194.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbSocioClubeNao" layoutX="614.0" layoutY="194.0" mnemonicParsing="false" text="Não" />
+								<Label layoutX="14.0" layoutY="228.0" text="Frequênta?" />
+								<RadioButton fx:id="rbFrequentaSim" layoutX="97.0" layoutY="227.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbFrequentaNao" layoutX="156.0" layoutY="227.0" mnemonicParsing="false" text="Não" />
+								<RadioButton fx:id="rbPaisBrincanSim" layoutX="694.0" layoutY="227.0" mnemonicParsing="false" text="Sim" />
+								<RadioButton fx:id="rbPaisBrincanNao" layoutX="753.0" layoutY="227.0" mnemonicParsing="false" text="Não" />
+
+
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="ANAMNESE DIABÉTICOS">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<Label layoutX="14.0" layoutY="14.0" text="Quando foi diagnosticado?" />
+								<Label layoutX="374.0" layoutY="14.0" text="Como foi feito o diagnóstico" />
+								<Label layoutX="15.0" layoutY="49.0" text="Qual o valor do resultado?" />
+								<Label layoutX="14.0" layoutY="77.0" text="Usa hipoglicemiante oral? " />
+								<Label layoutX="14.0" layoutY="210.0" text="Qual?" />
+								<Label layoutX="254.0" layoutY="111.0" text="Dose utilizada?" />
+								<Label layoutX="537.0" layoutY="210.0" text="Horário de uso?" />
+								<Label layoutX="15.0" layoutY="245.0" text="Há quanto tempo?" />
+								<Label layoutX="12.0" layoutY="148.0" text="Princípio ativo?" />
+								<Label layoutX="307.0" layoutY="148.0" text="Mecanismo de ação:" />
+								<Label layoutX="15.0" layoutY="178.0" text="É usúario de insulina? " />
+								<Label layoutX="15.0" layoutY="111.0" text="Qual?" />
+								<Label layoutX="247.0" layoutY="210.0" text="Dose utilizada?" />
+								<Label layoutX="546.0" layoutY="111.0" text="Horário de uso:" />
+								<Label layoutX="14.0" layoutY="284.0" text="Tem histórico de diabetes na família?" />
+								<Label layoutX="414.0" layoutY="284.0" text="Parentesco" />
+								
+								<Label layoutX="21.0" layoutY="316.0" text="Já fez os seguintes exames:" />
+								<Label layoutX="238.0" layoutY="343.0" text="Quando" />
+								<Label layoutX="425.0" layoutY="344.0" text="Quando será o próximo?" />
+								<Label layoutX="625.0" layoutY="344.0" text="Qual o resultado?" />
+                        <TextField fx:id="txtQuandoDiagnosticado" layoutX="192.0" layoutY="9.0" />
+                        <TextField fx:id="txtComoDiagnosticado" layoutX="571.0" layoutY="9.0" />
+                        <TextField fx:id="txtValorResultado" layoutX="192.0" layoutY="44.0" />
+                        <RadioButton fx:id="rbHipoglicemianteOralSim" layoutX="192.0" layoutY="76.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbHipoglicemianteOralNao" layoutX="253.0" layoutY="76.0" mnemonicParsing="false" text="Não" />
+                        <TextField fx:id="txtQualHipoglicemiante" layoutX="61.0" layoutY="106.0" />
+                        <TextField fx:id="txtDoseHipoglicemiante" layoutX="364.0" layoutY="106.0" />
+                        <TextField fx:id="txtHorarioHipoglicemiante" layoutX="654.0" layoutY="106.0" prefHeight="26.0" prefWidth="157.0" />
+                        <Button layoutX="322.0" layoutY="72.0" mnemonicParsing="false" text="+" />
+                        <TextField fx:id="txtPrincipioHipoglicemiante" layoutX="125.0" layoutY="143.0" />
+                        <TextField fx:id="txtMecanismoHipoglicemiante" layoutX="450.0" layoutY="143.0" prefHeight="26.0" prefWidth="363.0" />
+                        <RadioButton fx:id="rbInsulinaSim" layoutX="174.0" layoutY="177.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbNao" layoutX="235.0" layoutY="177.0" mnemonicParsing="false" text="Não" />
+                        <Button layoutX="304.0" layoutY="173.0" mnemonicParsing="false" text="+" />
+                        <TextField fx:id="txtQualInsulina" layoutX="61.0" layoutY="205.0" />
+                        <TextField fx:id="txtDoseInsulina" layoutX="353.0" layoutY="205.0" />
+                        <TextField fx:id="txtHorarioInsulina" layoutX="646.0" layoutY="205.0" prefHeight="26.0" prefWidth="157.0" />
+                        <TextField fx:id="txtTempoInsulina" layoutX="147.0" layoutY="240.0" />
+                        <RadioButton fx:id="rbHistoricoDiabetesSim" layoutX="263.0" layoutY="283.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbHistoricoDiabetesNao" layoutX="324.0" layoutY="283.0" mnemonicParsing="false" text="Não" />
+                        <TextField fx:id="txtParentescoDiabetes" layoutX="496.0" layoutY="279.0" prefHeight="26.0" prefWidth="308.0" />
+                        <CheckBox fx:id="chkGlicemiaJejum" layoutX="12.0" layoutY="366.0" mnemonicParsing="false" text="Glicemia de Jejum" />
+                        <CheckBox fx:id="chkTOTG" layoutX="11.0" layoutY="403.0" mnemonicParsing="false" text="T.O.T.G" />
+                        <CheckBox fx:id="chkHbGlicada" layoutX="11.0" layoutY="441.0" mnemonicParsing="false" text="Hb Glicada" />
+                        <TextField fx:id="txtQuandoGlicemiaJejum" layoutX="233.0" layoutY="362.0" />
+                        <TextField fx:id="txtResultadoGlicemiaJejum" layoutX="625.0" layoutY="363.0" />
+                        <TextField fx:id="txtProximoGlicemiaJejum" layoutX="425.0" layoutY="363.0" />
+                        <TextField fx:id="txtQuandoTOTG" layoutX="235.0" layoutY="399.0" />
+                        <TextField fx:id="txtResultadoTOTG" layoutX="627.0" layoutY="400.0" />
+                        <TextField fx:id="txtProximoTOTG" layoutX="427.0" layoutY="400.0" />
+                        <TextField fx:id="txtQuandoHbGlicada" layoutX="235.0" layoutY="437.0" />
+                        <TextField fx:id="txtResultadoHbGlicada" layoutX="627.0" layoutY="438.0" />
+                        <TextField fx:id="txtProximoHbGlicada" layoutX="427.0" layoutY="438.0" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+            <Tab text="ANAMNESE DIABÉTICOS pt2">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <CheckBox layoutX="15.0" layoutY="14.0" mnemonicParsing="false" text="Fascite plantar" />
-                        <Label layoutX="158.0" layoutY="15.0" text="Local" />
-                        <TextField layoutX="204.0" layoutY="10.0" />
-                        <Label layoutX="408.0" layoutY="15.0" text="Quando" />
-                        <TextField layoutX="470.0" layoutY="10.0" prefHeight="26.0" prefWidth="224.0" />
-                        <Label layoutX="15.0" layoutY="47.0" text="Sequela" />
-                        <TextField layoutX="72.0" layoutY="42.0" prefHeight="26.0" prefWidth="625.0" />
-                        <CheckBox layoutX="14.0" layoutY="81.0" mnemonicParsing="false" text="Tendinite" />
-                        <Label layoutX="157.0" layoutY="82.0" text="Local" />
-                        <TextField layoutX="203.0" layoutY="77.0" />
-                        <Label layoutX="407.0" layoutY="82.0" text="Quando" />
-                        <TextField layoutX="469.0" layoutY="77.0" prefHeight="26.0" prefWidth="224.0" />
-                        <Label layoutX="14.0" layoutY="114.0" text="Sequela" />
-                        <TextField layoutX="71.0" layoutY="109.0" prefHeight="26.0" prefWidth="625.0" />
-                        <CheckBox layoutX="14.0" layoutY="146.0" mnemonicParsing="false" text="Outras" />
-                        <Label layoutX="157.0" layoutY="147.0" text="Local" />
-                        <TextField layoutX="203.0" layoutY="142.0" />
-                        <Label layoutX="407.0" layoutY="147.0" text="Quando" />
-                        <TextField layoutX="469.0" layoutY="142.0" prefHeight="26.0" prefWidth="224.0" />
-                        <Label layoutX="14.0" layoutY="179.0" text="Sequela" />
-                        <TextField layoutX="71.0" layoutY="174.0" prefHeight="26.0" prefWidth="625.0" />
-                        <Label layoutX="24.0" layoutY="229.0" prefHeight="16.0" prefWidth="261.0" text="Já Fez Alguma Cirurgia?" />
-                        <Label layoutX="23.0" layoutY="276.0" text="Local" />
-                        <Label layoutX="375.0" layoutY="276.0" prefHeight="16.0" prefWidth="97.0" text="Qual cirurgia" />
-                        <Label layoutX="16.0" layoutY="312.0" text="Quando" />
-                        <Label layoutX="251.0" layoutY="312.0" text="Sequela" />
-                        <TextField layoutX="69.0" layoutY="271.0" prefHeight="26.0" prefWidth="293.0" />
-                        <TextField layoutX="469.0" layoutY="271.0" prefHeight="26.0" prefWidth="223.0" />
-                        <TextField layoutX="73.0" layoutY="307.0" prefHeight="26.0" prefWidth="162.0" />
-                        <TextField layoutX="313.0" layoutY="307.0" prefHeight="26.0" prefWidth="378.0" />
-                        <Button layoutX="191.0" layoutY="224.0" mnemonicParsing="false" text="+" />
-                        <Label layoutX="16.0" layoutY="345.0" text="Observações" />
-                        <TextField layoutX="107.0" layoutY="340.0" prefHeight="26.0" prefWidth="584.0" />
+                        <Label layoutX="14.0" layoutY="14.0" text="Faz monitoramento diário das seguintes glicemias:" />
+                        <Label layoutX="122.0" layoutY="37.0" text="Qual a média na ultima semana?" />
+                        <Label layoutX="135.0" layoutY="75.0" text="Quanto tempo após a refeição? " />
+                        <Label layoutX="528.0" layoutY="75.0" text="Qual a média na ultima semana?" />
+                        <Label layoutX="103.0" layoutY="119.0" text="Qual horario:" />
+                        <Label layoutX="382.0" layoutY="119.0" text="Qual a média na ultima semana?" />
+                        <Label layoutX="14.0" layoutY="164.0" text="Faz controle da glicemia capilar?" />
+                        <Label layoutX="372.0" layoutY="164.0" text="Em quais momentos?" />
+                        <Label layoutX="14.0" layoutY="197.0" text="Qual a média da última semana?" />
+                        <Label layoutX="14.0" layoutY="229.0" text="Fez exame de fundo de olho no último ano?" />
+                        <Label layoutX="443.0" layoutY="229.0" text="Diagnóstico" />
+                        <Label layoutX="14.0" layoutY="264.0" text="Fez exame renal no último ano?" />
+                        <Label layoutX="372.0" layoutY="264.0" text="Diagnóstico" />
+                        <Label layoutX="14.0" layoutY="296.0" text="Costuma ter crises frequentes de HIPOGLICEMIA?" />
+                        <Label layoutX="14.0" layoutY="364.0" text="Costuma ter crises frequentes de HIPERGLICEMIA?" />
+                        <Label layoutX="15.0" layoutY="325.0" text="Sintomas de Hipoglicemia" />
+                        <Label layoutX="15.0" layoutY="391.0" text="Sintomas de Hiperglicemia: " />
+                        
+                        <CheckBox fx:id="chkMonitoramentoJejum" layoutX="14.0" layoutY="36.0" mnemonicParsing="false" text="Jejum:" />
+                        <CheckBox fx:id="chkMonitoramentoPrandial" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" text="Pós-Prandial:" />
+                        <CheckBox fx:id="chkMonitoramentoOutros" layoutX="14.0" layoutY="118.0" mnemonicParsing="false" text="Outros:" />
+                        
+                        <RadioButton fx:id="rbGlicemiaCapilarSim" layoutX="240.0" layoutY="163.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbGlicemiaCapilarNao" layoutX="304.0" layoutY="163.0" mnemonicParsing="false" text="Não" />
+                        
+                        <RadioButton fx:id="rbFundoOlhoSim" layoutX="313.0" layoutY="228.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbFundoOlhoNao" layoutX="382.0" layoutY="228.0" mnemonicParsing="false" text="Não" />
+                        
+                        <RadioButton fx:id="rbExameRenalSim" layoutX="238.0" layoutY="263.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbExameRenalNao" layoutX="299.0" layoutY="263.0" mnemonicParsing="false" text="Não" />
+                        
+                        <RadioButton fx:id="rbCriseHipoSim" layoutX="348.0" layoutY="295.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbCriseHipoNao" layoutX="408.0" layoutY="295.0" mnemonicParsing="false" text="Não" />
+                        
+                           <RadioButton fx:id="rbCriseHipeSim" layoutX="358.0" layoutY="363.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbCriseHipeNao" layoutX="424.0" layoutY="363.0" mnemonicParsing="false" text="Não" />
+                        <TextField fx:id="txtMediaSemanaJejum" layoutX="357.0" layoutY="32.0" />
+                        <TextField fx:id="txtAposRefeicao" layoutX="347.0" layoutY="70.0" />
+                        <TextField fx:id="txtMediaSemana" layoutX="750.0" layoutY="70.0" prefHeight="26.0" prefWidth="56.0" />
+                        <TextField fx:id="txtHorarioOutros" layoutX="198.0" layoutY="114.0" />
+                        <TextField fx:id="txtMediaSemanaOutros" layoutX="607.0" layoutY="114.0" />
+                        <TextField fx:id="txtMomentoGlicemia" layoutX="522.0" layoutY="159.0" />
+                        <TextField fx:id="txtMediaSemanaGlicemia" layoutX="243.0" layoutY="192.0" />
+                        <TextField fx:id="txtDiagnosticoOlho" layoutX="528.0" layoutY="224.0" prefHeight="26.0" prefWidth="282.0" />
+                        <TextField fx:id="txtDiagnosticoRenal" layoutX="465.0" layoutY="259.0" />
+                        <TextField fx:id="txtSintomasHipogli" layoutX="190.0" layoutY="320.0" prefHeight="26.0" prefWidth="611.0" />
+                        <TextField fx:id="txtSintomaHipergli" layoutX="219.0" layoutY="386.0" prefHeight="26.0" prefWidth="584.0" />
+                        <Button layoutX="474.0" layoutY="291.0" mnemonicParsing="false" text="+" />
+                        <Button layoutX="481.0" layoutY="359.0" mnemonicParsing="false" text="+" />                        
                      </children>
                   </AnchorPane>
               </content>
             </Tab>
-            <Tab text="QUALIDADE DE VIDA E SAÚDE">
+            <Tab text="ANAMNESE DIABÉTICOS pt3">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <RadioButton layoutX="204.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="268.0" layoutY="13.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="14.0" layoutY="14.0" text="Atualmente você trabalha?" />
-                        <Label layoutX="335.0" layoutY="14.0" text="Quantas horas por dia?" />
-                        <TextField layoutX="500.0" layoutY="9.0" prefHeight="26.0" prefWidth="80.0" />
-                        <Label layoutX="14.0" layoutY="43.0" text="Descreva suas principais funções motoras no trabalho." />
-                        <TextArea layoutX="14.0" layoutY="66.0" prefHeight="64.0" prefWidth="693.0" />
-                        <Label layoutX="14.0" layoutY="142.0" text="Você faz algum movimento repetitivo durante o dia ou turno de trabalho? " />
-                        <RadioButton layoutX="508.0" layoutY="141.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="572.0" layoutY="141.0" mnemonicParsing="false" text="Não" />
-                        <TextArea layoutX="14.0" layoutY="161.0" prefHeight="64.0" prefWidth="693.0" />
-                        <Label layoutX="14.0" layoutY="237.0" text="Você se cansa facilmente quando faz atividade física? " />
-                        <RadioButton layoutX="386.0" layoutY="236.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="450.0" layoutY="236.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="14.0" layoutY="268.0" text="Com que frequência você se sente estressado (irritado)?" />
-                        <ComboBox layoutX="400.0" layoutY="263.0" prefWidth="150.0" />
-                        <Label layoutX="14.0" layoutY="300.0" text="Em uma escala de 0 a 10, como você avalia o seu nível de stress?" />
-                        <Spinner layoutX="455.0" layoutY="295.0" prefHeight="26.0" prefWidth="76.0" />
-                        <Label layoutX="14.0" layoutY="331.0" text="Qual(is) motivo(s)?" />
-                        <TextField layoutX="143.0" layoutY="326.0" prefHeight="26.0" prefWidth="569.0" />
-                        <Label layoutX="14.0" layoutY="366.0" text="Atualmente fuma?" />
-                        <RadioButton layoutX="151.0" layoutY="365.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="215.0" layoutY="365.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="293.0" layoutY="366.0" text="Há quanto tempo?" />
-                        <TextField layoutX="428.0" layoutY="361.0" prefHeight="26.0" prefWidth="104.0" />
-                        <Label layoutX="14.0" layoutY="396.0" text="Quantos cigarros por dia?" />
-                        <ComboBox layoutX="193.0" layoutY="391.0" prefWidth="150.0" />
-                        <Label layoutX="354.0" layoutY="396.0" text="Tentou parar?" />
-                        <RadioButton layoutX="451.0" layoutY="395.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="515.0" layoutY="395.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="14.0" layoutY="427.0" text="Fisicamente o que mudou?" />
-                        <TextField layoutX="197.0" layoutY="422.0" prefHeight="26.0" prefWidth="518.0" />
-                        <Label layoutX="14.0" layoutY="458.0" text="Já fumou?" />
-                        <RadioButton layoutX="90.0" layoutY="457.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="154.0" layoutY="457.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="11.0" layoutY="489.0" text="Por quanto tempo fumou?" />
-                        <TextField layoutX="193.0" layoutY="484.0" prefHeight="26.0" prefWidth="104.0" />
-                        <Label layoutX="308.0" layoutY="489.0" text="Quantos cigarros por dia?" />
-                        <Label layoutX="13.0" layoutY="526.0" text="Há quanto tempo não fuma?" />
-                        <TextField layoutX="207.0" layoutY="521.0" prefHeight="26.0" prefWidth="104.0" />
-                        <Spinner layoutX="487.0" layoutY="484.0" prefHeight="26.0" prefWidth="76.0" />
-                        <Label layoutX="325.0" layoutY="526.0" text="Fisicamente o que mudou?" />
-                        <TextField layoutX="505.0" layoutY="521.0" prefHeight="26.0" prefWidth="207.0" />
-                        <Button layoutX="214.0" layoutY="453.0" mnemonicParsing="false" text="+" />
-                     </children></AnchorPane>
-              </content>
-            </Tab>
-            <Tab text="QUALIDADE DE VIDA E SAÚDE pt2">
-               <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <RadioButton layoutX="197.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="261.0" layoutY="13.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="14.0" layoutY="14.0" text="Ingere bebidas alcoólicas?" />
-                        <Label layoutX="335.0" layoutY="14.0" text="Quais dias? " />
-                        <TextField layoutX="416.0" layoutY="9.0" prefHeight="26.0" prefWidth="159.0" />
-                        <Label layoutX="11.0" layoutY="169.0" text="Acorda quantas vezes por noite?" />
-                        <RadioButton layoutX="232.0" layoutY="168.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="296.0" layoutY="168.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="363.0" layoutY="169.0" text="Qual(is) motivo(s)?" />
-                        <TextField layoutX="493.0" layoutY="164.0" prefHeight="26.0" prefWidth="219.0" />
-                        <Label layoutX="12.0" layoutY="272.0" text="Utiliza algum medicamento para dormir?" />
-                        <RadioButton layoutX="291.0" layoutY="271.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="355.0" layoutY="271.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="12.0" layoutY="202.0" text="Maior incidencia em algum dia?" />
-                        <RadioButton layoutX="232.0" layoutY="201.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="296.0" layoutY="201.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="12.0" layoutY="238.0" text="Algum motivo específico?" />
-                        <TextField layoutX="191.0" layoutY="233.0" prefHeight="26.0" prefWidth="519.0" />
-                        <Label layoutX="12.0" layoutY="306.0" text="Faz dieta? " />
-                        <RadioButton layoutX="88.0" layoutY="305.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="152.0" layoutY="305.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="15.0" layoutY="45.0" text="Quais bebidas?" />
-                        <TextField layoutX="122.0" layoutY="40.0" prefHeight="26.0" prefWidth="159.0" />
-                        <Label layoutX="292.0" layoutY="45.0" text="Quantidade?" />
-                        <TextField layoutX="386.0" layoutY="40.0" prefHeight="26.0" prefWidth="330.0" />
-                        <Label layoutX="15.0" layoutY="75.0" text="Bebe em média qts litros de água/dia?" />
-                        <Spinner layoutX="273.0" layoutY="70.0" prefHeight="26.0" prefWidth="76.0" />
-                        <RadioButton layoutX="587.0" layoutY="74.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="651.0" layoutY="74.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="363.0" layoutY="75.0" text="Espera ter sede pra beber água?" />
-                        <Label layoutX="15.0" layoutY="109.0" text="Dorme em média quantas horas/dia?" />
-                        <Spinner layoutX="267.0" layoutY="104.0" prefHeight="26.0" prefWidth="76.0" />
-                        <Label layoutX="12.0" layoutY="138.0" text="De 0 a 10, como classifica o seu nível de recuperação?" />
-                        <Spinner layoutX="376.0" layoutY="133.0" prefHeight="26.0" prefWidth="76.0" />
-                        <Label layoutX="362.0" layoutY="203.0" text="Qual?" />
-                        <TextField layoutX="405.0" layoutY="198.0" prefHeight="26.0" prefWidth="306.0" />
-                        <Label layoutX="419.0" layoutY="272.0" text="Qual?" />
-                        <TextField layoutX="468.0" layoutY="267.0" prefHeight="26.0" prefWidth="247.0" />
-                        <Label layoutX="214.0" layoutY="306.0" text="Qual?" />
-                        <TextField layoutX="263.0" layoutY="301.0" prefHeight="26.0" prefWidth="448.0" />
-                        <Label layoutX="11.0" layoutY="340.0" text="Qual intuito?" />
-                        <TextField layoutX="106.0" layoutY="335.0" prefHeight="26.0" prefWidth="218.0" />
-                        <Label layoutX="334.0" layoutY="340.0" text="Há quanto tempo?" />
-                        <TextField layoutX="467.0" layoutY="335.0" prefHeight="26.0" prefWidth="242.0" />
-                        <Label layoutX="11.0" layoutY="378.0" text="Resultado:" />
-                        <TextField layoutX="89.0" layoutY="373.0" prefHeight="26.0" prefWidth="620.0" />
-                        <Label layoutX="11.0" layoutY="414.0" text="Já fez dieta? " />
-                        <RadioButton layoutX="97.0" layoutY="413.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="161.0" layoutY="413.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="223.0" layoutY="414.0" text="Qual?" />
-                        <TextField layoutX="272.0" layoutY="409.0" prefHeight="26.0" prefWidth="448.0" />
-                        <Label layoutX="22.0" layoutY="448.0" text="Qual intuito?" />
-                        <TextField layoutX="119.0" layoutY="443.0" prefHeight="26.0" prefWidth="210.0" />
-                        <Label layoutX="343.0" layoutY="448.0" text="Há quanto tempo?" />
-                        <TextField layoutX="476.0" layoutY="443.0" prefHeight="26.0" prefWidth="242.0" />
-                        <Label layoutX="11.0" layoutY="486.0" text="Resultado:" />
-                        <TextField layoutX="89.0" layoutY="481.0" prefHeight="26.0" prefWidth="629.0" />
-                        <Label layoutX="11.0" layoutY="518.0" text="Utiliza algum suplemento? " />
-                        <RadioButton layoutX="197.0" layoutY="517.0" mnemonicParsing="false" text="Sim" />
-                        <RadioButton layoutX="261.0" layoutY="517.0" mnemonicParsing="false" text="Não" />
-                        <Label layoutX="327.0" layoutY="518.0" text="Descrição" />
-                        <TextField layoutX="396.0" layoutY="513.0" prefHeight="26.0" prefWidth="314.0" />
+                        
+                        <Label layoutX="12.0" layoutY="14.0" text="Possui alguma das seguintes características:" />
+                        <Label layoutX="378.0" layoutY="14.0" text="Há quanto tempo?" />
+                        <Label layoutX="584.0" layoutY="14.0" text="Observações " />
+                        <CheckBox fx:id="chkPerdaSensibilidadePes" layoutX="11.0" layoutY="39.0" mnemonicParsing="false" text="Perda de sensibilidade nos pés?" />
+                        <TextField fx:id="txtTempoPerdaSensibilidadePes" layoutX="378.0" layoutY="35.0" />
+                        <TextField fx:id="txtObservacaoPerdaSensibilidadePes" layoutX="584.0" layoutY="35.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkFormigamentoPes" layoutX="11.0" layoutY="76.0" mnemonicParsing="false" text="Formigamento nos pés?" />
+                        <TextField fx:id="txtTempoFormigamentoPes" layoutX="378.0" layoutY="72.0" />
+                        <TextField fx:id="txtObservacaoFormigamentoPes" layoutX="584.0" layoutY="72.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox layoutX="11.0" layoutY="113.0" mnemonicParsing="false" text="Sensação de pé frio?" />
+                        <TextField fx:id="txtSensacaoPeFrio" layoutX="378.0" layoutY="109.0" />
+                        <TextField fx:id="txtObservacaoSensacaoPeFrio" layoutX="584.0" layoutY="109.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkInchacoPes" layoutX="11.0" layoutY="150.0" mnemonicParsing="false" text="Inchaço frequente nos pés?" />
+                        <TextField fx:id="txtTempoInchacoPes" layoutX="378.0" layoutY="146.0" />
+                        <TextField fx:id="txtObservacaoInchacoPes" layoutX="584.0" layoutY="146.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkArdenciaPernasAF" layoutX="11.0" layoutY="183.0" mnemonicParsing="false" text="Ardencia nas pernas durante Ativida.Física?" />
+                        <TextField fx:id="txtTempoArdenciaPernasAF" layoutX="378.0" layoutY="179.0" />
+                        <TextField fx:id="txtObservacaoArdenciaPernasAF" layoutX="584.0" layoutY="179.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkCalafrioRepentino" layoutX="11.0" layoutY="220.0" mnemonicParsing="false" text="Calafrios ou sudorese repentinas?" />
+                        <TextField fx:id="txtTempoCalafrioRepentino" layoutX="378.0" layoutY="216.0" />
+                        <TextField fx:id="txtObservacaoCalafrioRepentino" layoutX="584.0" layoutY="216.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkTonturaRepentina" layoutX="11.0" layoutY="257.0" mnemonicParsing="false" text="Tontura repentina em dias quentes?" />
+                        <TextField fx:id="txtTempoTonturaRepentina" layoutX="378.0" layoutY="253.0" />
+                        <TextField fx:id="txtObservacaoTonturaRepentina" layoutX="584.0" layoutY="253.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkApagaoLevantar" layoutX="11.0" layoutY="294.0" mnemonicParsing="false" text="Teve algum apagão ao levantar rapidamente?" />
+                        <TextField fx:id="txtTempoApagaoLevantar" layoutX="378.0" layoutY="290.0" />
+                        <TextField fx:id="txtObservacaoApagaoLevantar" layoutX="584.0" layoutY="290.0" prefHeight="26.0" prefWidth="224.0" />
+                        <CheckBox fx:id="chkQuedasRepentina" layoutX="11.0" layoutY="331.0" mnemonicParsing="false" text=" Quedas ou elevações repentinas da P.A e F.C?" />
+                        <TextField fx:id="txtTempoQuedasRepentina" layoutX="378.0" layoutY="327.0" />
+                        <TextField fx:id="txtObservacaoQuedasRepentina" layoutX="584.0" layoutY="327.0" prefHeight="26.0" prefWidth="224.0" />
                      </children>
                   </AnchorPane>
-               </content>
+              </content>
             </Tab>
-            <Tab text="Untitled Tab">
+            <Tab text="ANAMNESE HIPERTENSÃO">
               <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Quando foi diagnosticado?" />
+                        <Label layoutX="337.0" layoutY="14.0" text="Como foi feito o diagnóstico" />
+                        <Label layoutX="14.0" layoutY="47.0" text="Qual o valor do resultado?" />
+                        <Label layoutX="14.0" layoutY="82.0" text="Tem histórico de hipertensão na família?" />
+                        <Label layoutX="421.0" layoutY="82.0" text="Parentesco:" />
+                        <Label layoutX="14.0" layoutY="115.0" text="Tem conhecimento da causa da sua hipertensão?" />
+                        <Label layoutX="482.0" layoutY="115.0" text="Causa" />
+                        <Label layoutX="14.0" layoutY="147.0" text="Costuma medir sua pressão diariamente?" />
+                        <Label layoutX="424.0" layoutY="147.0" text="Qual horário?" />
+                        <Label layoutX="14.0" layoutY="178.0" text="Usa medicamento hipotensor? " />
+                        <Label layoutX="14.0" layoutY="207.0" text="Qual?" />
+                        <Label layoutX="255.0" layoutY="207.0" text="Dose utilizada?" />
+                        <Label layoutX="545.0" layoutY="207.0" text="Horário de uso?" />
+                        <Label layoutX="14.0" layoutY="244.0" text="Há quanto tempo?" />
+                        <Label layoutX="322.0" layoutY="244.0" text="Princípio ativo?" />
+                        <Label layoutX="14.0" layoutY="276.0" text="Mecanismo de ação:" />
+                        <Label layoutX="13.0" layoutY="307.0" text="Quanto reduziu a P.A após iniciar os medicamentos?" />
+                        <Label layoutX="556.0" layoutY="307.0" text="OBS:" />
+                        <Label layoutX="12.0" layoutY="348.0" text="Já mediu a P.A após treinar (15 a 30 min)?" />
+                        <Label layoutX="425.0" layoutY="348.0" text="Qual o valor?" />
+                        <Label layoutX="12.0" layoutY="377.0" text=" Tem algum período do dia que ocorre alteração na P.A?" />
+                        <Label layoutX="515.0" layoutY="377.0" text="Algum motivo específico?" />
+                        <Label layoutX="14.0" layoutY="408.0" text="Tem algo que você come, bebe ou faz que piora repentinamente sua P.A?" />
+                        <TextField fx:id="txtQuandoDiagnosticadoHiper" layoutX="196.0" layoutY="9.0" prefHeight="26.0" prefWidth="124.0" />
+                        <TextField fx:id="txtComoDiagnosticadoHiper" layoutX="527.0" layoutY="9.0" />
+                        <TextField fx:id="txtValorResultadoHiper" layoutX="195.0" layoutY="42.0" />
+                        <TextField fx:id="txtParentescoHipertensao" layoutX="502.0" layoutY="77.0" prefHeight="26.0" prefWidth="300.0" />
+                        <TextField fx:id="txtCausaHiperDescricao" layoutX="533.0" layoutY="110.0" prefHeight="26.0" prefWidth="270.0" />
+                        <TextField fx:id="txtHorarioPressaoDiaria" layoutX="527.0" layoutY="142.0" prefHeight="26.0" prefWidth="277.0" />
+                        <TextField fx:id="txtMedicamentoHipoNome" layoutX="65.0" layoutY="202.0" />
+                        <TextField fx:id="txtHorarioMedicamentoHipo" layoutX="652.0" layoutY="202.0" prefHeight="26.0" prefWidth="158.0" />
+                        <TextField fx:id="txtDoseMedicamentoHipo" layoutX="359.0" layoutY="202.0" />
+                        <TextField fx:id="txtTempoMedicamentoHipo" layoutX="147.0" layoutY="239.0" />
+                        <TextField fx:id="txtMecanismoMedicamentoHipo" layoutX="159.0" layoutY="271.0" prefHeight="26.0" prefWidth="647.0" />
+                        <TextField fx:id="txtQuantoReduziu" layoutX="366.0" layoutY="302.0" />
+                        <TextField fx:id="txtPrincipioAtivoMedicamentoHipo" layoutX="427.0" layoutY="239.0" />
+                        <TextField fx:id="txtObsMedicamentoHipo" layoutX="598.0" layoutY="302.0" prefHeight="26.0" prefWidth="206.0" />
+                        <TextField fx:id="txtValorAposTreinar" layoutX="527.0" layoutY="343.0" />
+                        <TextField fx:id="txtMotivoAlteracaoDuranteDia" layoutX="687.0" layoutY="372.0" prefHeight="26.0" prefWidth="128.0" />
+                        <RadioButton fx:id="rbHipertensaoFamiliaSim" layoutX="291.0" layoutY="81.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbHipertensaoFamiliaNao" layoutX="353.0" layoutY="81.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbCausaHiperSim" layoutX="347.0" layoutY="114.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbCausaHiperNao" layoutX="409.0" layoutY="114.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbPressaoDiariaSim" layoutX="297.0" layoutY="146.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbPressaoDiariaNao" layoutX="359.0" layoutY="146.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbMedicamentoHipoSim" layoutX="220.0" layoutY="177.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbMedicamentoHipoNao" layoutX="282.0" layoutY="177.0" mnemonicParsing="false" text="Não" />
+                        <Button layoutX="341.0" layoutY="173.0" mnemonicParsing="false" text="+" />
+                        <RadioButton fx:id="rbMediuAposTreinarSim" layoutX="303.0" layoutY="347.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbMediuAposTreinarNao" layoutX="365.0" layoutY="347.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbAlteracaoDuranteDiaSim" layoutX="389.0" layoutY="376.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbAlteracaoDuranteDiaNao" layoutX="451.0" layoutY="376.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbAlimentoMudaPressaoSim" layoutX="500.0" layoutY="407.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbAlimentoMudaPressaoNao" layoutX="562.0" layoutY="407.0" mnemonicParsing="false" text="Não" />
+                        <Label layoutX="14.0" layoutY="435.0" text="O que?" />
+                        <TextField fx:id="txtAlimentoMudaPressaoDescricao" layoutX="74.0" layoutY="430.0" prefHeight="26.0" prefWidth="738.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="ANAMNESE HIPERTENSÃO pt2">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Quais seus sintomas específicos?" />
+                        <Label layoutX="8.0" layoutY="49.0" text="Sintomas de Hipertensão: " />
+                        <Label layoutX="422.0" layoutY="49.0" text="Sintomas de Hipotensão: " />
+                        <Label layoutX="11.0" layoutY="83.0" text="Faz controle nutricional?" />
+                        <Label layoutX="310.0" layoutY="83.0" text="Qual o nível de redução da P.A após o controle?" />
+                        <Label layoutX="14.0" layoutY="119.0" text="Costuma controlar a ingestão de sal?" />
+                        <Label layoutX="14.0" layoutY="153.0" text="Costuma ter inchaços frequente nas mãos ou nos pés?" />
+                        <Label layoutX="14.0" layoutY="179.0" text="Local?" />
+                        <Label layoutX="268.0" layoutY="179.0" text="Algum horário ou motivo específico?" />
+                        <Label layoutX="17.0" layoutY="212.0" text="Tem algum problema de retenção de líquidos? " />
+                        <Label layoutX="472.0" layoutY="212.0" text="Qual?" />
+                        <TextField fx:id="txtSintomasHiperEsp" layoutX="183.0" layoutY="44.0" prefHeight="26.0" prefWidth="225.0" />
+                        <TextField fx:id="txtSintomasHipoEsp" layoutX="594.0" layoutY="44.0" prefHeight="26.0" prefWidth="212.0" />
+                        <TextField fx:id="txtReducaoControle" layoutX="638.0" layoutY="78.0" prefHeight="26.0" prefWidth="166.0" />
+                        <TextField fx:id="txtLocalInchacoMaoPe" layoutX="75.0" layoutY="174.0" />
+                        <TextField fx:id="txtHorarioInchacoMaoPe" layoutX="518.0" layoutY="174.0" prefHeight="26.0" prefWidth="283.0" />
+                        <TextField fx:id="txtQualRetencaoLiquido" layoutX="518.0" layoutY="207.0" prefHeight="26.0" prefWidth="282.0" />
+                        
+                        <RadioButton fx:id="rbControleNutriSim" layoutX="182.0" layoutY="82.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbControleNutriNao" layoutX="244.0" layoutY="82.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbControleSalSim" layoutX="275.0" layoutY="118.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbControleSalNao" layoutX="337.0" layoutY="118.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbInchacoMaoPeSim" layoutX="385.0" layoutY="152.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbInchacoMaoPeNao" layoutX="447.0" layoutY="152.0" mnemonicParsing="false" text="Não" />
+                        <RadioButton fx:id="rbRetencaoLiquidoSim" layoutX="337.0" layoutY="211.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton fx:id="rbRetencaoLiquidoNao" layoutX="399.0" layoutY="211.0" mnemonicParsing="false" text="Não" />
+                        <Button layoutX="246.0" layoutY="9.0" mnemonicParsing="false" text="+" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="ANAMNESE OBESOS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text=" Tem histórico de obesidade na família?" />
+                        <Label layoutX="410.0" layoutY="14.0" text="Parentesco" />
+                        <Label layoutX="14.0" layoutY="46.0" text="A partir de que idade você se tornou obeso(a)?" />
+                        <Label layoutX="413.0" layoutY="46.0" text="Quanto tempo levou?" />
+                        <Label layoutX="15.0" layoutY="78.0" text="Tem consciência da causa?" />
+                        <Label layoutX="15.0" layoutY="106.0" text="Você já sofreu algum acontecimento marcante (Trauma Emocional)?" />
+                        <Label layoutX="14.0" layoutY="137.0" text="Qual?" />
+                        <Label layoutX="236.0" layoutY="137.0" text="Quando?" />
+                        <Label layoutX="15.0" layoutY="170.0" text="Isso afetou o seu peso?" />
+                        <Label layoutX="15.0" layoutY="201.0" text="Já fez alguma dieta para perda de peso?" />
+                        <Label layoutX="412.0" layoutY="201.0" text="Obs" />
+                        <Label layoutX="14.0" layoutY="243.0" text="Qual?" />
+                        <Label layoutX="245.0" layoutY="243.0" text="Quando?" />
+                        <Label layoutX="500.0" layoutY="243.0" text="Por quanto tempo?" />
+                        <Label layoutX="15.0" layoutY="276.0" text="Quantos kg perdeu?" />
+                        <Label layoutX="351.0" layoutY="276.0" text="Em quanto tempo?" />
+                        <Label layoutX="15.0" layoutY="306.0" text="Quantos Kg recuperou?" />
+                        <Label layoutX="360.0" layoutY="306.0" text="Em quanto tempo?" />
+                        <Label layoutX="15.0" layoutY="342.0" text="Por que deixou de segui-la?" />
+                        <TextField layoutX="501.0" layoutY="9.0" />
+                        <TextField layoutX="334.0" layoutY="41.0" prefHeight="26.0" prefWidth="62.0" />
+                        <TextField layoutX="562.0" layoutY="41.0" />
+                        <TextField layoutX="61.0" layoutY="132.0" />
+                        <TextField layoutX="303.0" layoutY="132.0" />
+                        <TextField layoutX="361.0" layoutY="165.0" />
+                        <TextField layoutX="447.0" layoutY="196.0" prefHeight="26.0" prefWidth="365.0" />
+                        <TextField layoutX="62.0" layoutY="238.0" />
+                        <TextField layoutX="311.0" layoutY="238.0" />
+                        <TextField layoutX="630.0" layoutY="238.0" />
+                        <TextField layoutX="160.0" layoutY="271.0" />
+                        <TextField layoutX="484.0" layoutY="271.0" />
+                        <RadioButton layoutX="278.0" layoutY="13.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton layoutX="334.0" layoutY="13.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Não" />
+                        <RadioButton layoutX="209.0" layoutY="77.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton layoutX="265.0" layoutY="77.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Não" />
+                        <RadioButton layoutX="478.0" layoutY="105.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton layoutX="534.0" layoutY="105.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Não" />
+                        <RadioButton layoutX="177.0" layoutY="169.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton layoutX="233.0" layoutY="169.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Não" />
+                        <Label layoutX="295.0" layoutY="170.0" text="Quanto" />
+                        <RadioButton layoutX="294.0" layoutY="200.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton layoutX="350.0" layoutY="200.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Não" />
+                        <TextField layoutX="180.0" layoutY="301.0" />
+                        <TextField layoutX="490.0" layoutY="301.0" />
+                        <TextField layoutX="211.0" layoutY="337.0" prefHeight="26.0" prefWidth="284.0" />
+                        <Button layoutX="514.0" layoutY="337.0" mnemonicParsing="false" text="+" />
+                        <Label layoutX="9.0" layoutY="377.0" text="Utilizou algum tipo de medicamento para emagrecer?" />
+                        <Label layoutX="486.0" layoutY="377.0" text="Obs" />
+                        <Label layoutX="23.0" layoutY="419.0" text="Qual?" />
+                        <Label layoutX="254.0" layoutY="419.0" text="Quando?" />
+                        <Label layoutX="509.0" layoutY="419.0" text="Por quanto tempo?" />
+                        <Label layoutX="24.0" layoutY="452.0" text="Quantos kg perdeu?" />
+                        <Label layoutX="360.0" layoutY="452.0" text="Em quanto tempo?" />
+                        <Label layoutX="24.0" layoutY="482.0" text="Quantos Kg recuperou?" />
+                        <Label layoutX="369.0" layoutY="482.0" text="Em quanto tempo?" />
+                        <Label layoutX="24.0" layoutY="518.0" text="Por que deixou de utiliza-lo?" />
+                        <TextField layoutX="529.0" layoutY="372.0" prefHeight="26.0" prefWidth="280.0" />
+                        <TextField layoutX="71.0" layoutY="414.0" />
+                        <TextField layoutX="320.0" layoutY="414.0" />
+                        <TextField layoutX="639.0" layoutY="414.0" />
+                        <TextField layoutX="169.0" layoutY="447.0" />
+                        <TextField layoutX="493.0" layoutY="447.0" />
+                        <RadioButton layoutX="363.0" layoutY="376.0" mnemonicParsing="false" text="Sim" />
+                        <RadioButton layoutX="419.0" layoutY="376.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Não" />
+                        <TextField layoutX="189.0" layoutY="477.0" />
+                        <TextField layoutX="499.0" layoutY="477.0" />
+                        <TextField layoutX="220.0" layoutY="513.0" prefHeight="26.0" prefWidth="284.0" />
+                        <Button layoutX="523.0" layoutY="513.0" mnemonicParsing="false" text="+" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="ANAMNESE OBESOS pt2">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="20.0" layoutY="14.0" text=" Faz exames frequêntes" />
+                        <Label layoutX="152.0" layoutY="37.0" text="Quando" />
+                        <Label layoutX="399.0" layoutY="37.0" text="Quando será o próximo" />
+                        <Label layoutX="14.0" layoutY="72.0" text="Resultado" />
+                        <Label layoutX="298.0" layoutY="179.0" text="Há quanto tempo?" />
+                        <Label layoutX="22.0" layoutY="213.0" text="De 0 a 10, como classifica o seu nível de recuperação com as noites de sono?" />
+                        <Label layoutX="494.0" layoutY="299.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="323.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="349.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="373.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="403.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="427.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="453.0" text="Label" />
+                        <Label layoutX="494.0" layoutY="477.0" text="Label" />
+                        <CheckBox layoutX="19.0" layoutY="36.0" mnemonicParsing="false" text="Cardiológico" />
+                        <CheckBox layoutX="19.0" layoutY="105.0" mnemonicParsing="false" text="Sanguíneo" />
+                        <TextField layoutX="212.0" layoutY="32.0" />
+                        <TextField layoutX="562.0" layoutY="32.0" />
+                        <TextField layoutX="92.0" layoutY="67.0" prefHeight="26.0" prefWidth="643.0" />
+                        <Label layoutX="161.0" layoutY="106.0" text="Quando" />
+                        <Label layoutX="408.0" layoutY="106.0" text="Quando será o próximo" />
+                        <Label layoutX="23.0" layoutY="141.0" text="Resultado" />
+                        <TextField layoutX="221.0" layoutY="101.0" />
+                        <TextField layoutX="571.0" layoutY="101.0" />
+                        <TextField layoutX="101.0" layoutY="136.0" prefHeight="26.0" prefWidth="643.0" />
+                        <CheckBox layoutX="14.0" layoutY="178.0" mnemonicParsing="false" text="Costuma ter apneia durante o sono?" />
+                        <TextField layoutX="427.0" layoutY="174.0" />
+                     </children>
+                  </AnchorPane>
               </content>
             </Tab>
 			</tabs>
 		</TabPane>
-      <HBox alignment="TOP_RIGHT" prefHeight="30.0" prefWidth="820.0" spacing="5.0">
-         <children>
-            <Button mnemonicParsing="false" text="Gravar" />
-            <Button mnemonicParsing="false" text="Alterar" />
-            <Button mnemonicParsing="false" text="Excluir" />
-         </children>
-         <padding>
-            <Insets left="520.0" />
-         </padding>
-         <opaqueInsets>
-            <Insets right="100.0" />
-         </opaqueInsets>
-      </HBox>
+		<HBox alignment="TOP_RIGHT" prefHeight="30.0" prefWidth="820.0" spacing="5.0">
+			<children>
+				<Button mnemonicParsing="false" text="Gravar" />
+				<Button mnemonicParsing="false" text="Alterar" />
+				<Button mnemonicParsing="false" text="Excluir" />
+			</children>
+			<padding>
+				<Insets left="520.0" />
+			</padding>
+			<opaqueInsets>
+				<Insets right="100.0" />
+			</opaqueInsets>
+		</HBox>
 	</children>
 </VBox>
